@@ -130,10 +130,10 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Imagenes\ImagenEscudo.png" />
-    <Content Include="Imagenes\ImagenVida.png" />
-    <Content Include="Imagenes\Pocion de escudo.png" />
-    <Content Include="Imagenes\Pocion de vida.png" />
+    <Content Include="Assets\ImagenEscudo.png" />
+    <Content Include="Assets\ImagenVida.png" />
+    <Content Include="Assets\Pocion de escudo.png" />
+    <Content Include="Assets\Pocion de vida.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

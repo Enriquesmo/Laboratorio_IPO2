@@ -30,6 +30,7 @@ namespace Laboratorio_IPO2
         public MainPage()
         {
             this.InitializeComponent();
+            dtTime = new DispatcherTimer();
         }
         /************************************************************************************************/
 
@@ -39,7 +40,7 @@ namespace Laboratorio_IPO2
         {
             
             dtTime = new DispatcherTimer();
-            dtTime.Interval = TimeSpan.FromMilliseconds(100);
+            dtTime.Interval = TimeSpan.FromMilliseconds(10); // Esto lo he cambiado para que se vea más fluido, deberia ser 100 milisegundos
             dtTime.Tick += increaseHealth;
             dtTime.Start();
             this.Image_Pocion_De_Vida.Opacity = 0.5;
