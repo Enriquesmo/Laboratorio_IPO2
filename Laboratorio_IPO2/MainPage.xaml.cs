@@ -22,9 +22,41 @@ namespace Laboratorio_IPO2
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        DispatcherTimer dtTime;
+        /************************************************************************************************/
+
+        /*Inicializacion de la ventana MainWindow*/
+
         public MainPage()
         {
             this.InitializeComponent();
+        }
+        /************************************************************************************************/
+
+        /*Botones de la propia ventana ListaDeRutas*/
+
+        private void Image_Pocion_De_Vida_PointerReleased(object sender, PointerRoutedEventArgs e)
+        {
+            
+            dtTime = new DispatcherTimer();
+            dtTime.Interval = TimeSpan.FromMilliseconds(100);
+            dtTime.Tick += increaseHealth;
+            dtTime.Start();
+            this.Image_Pocion_De_Vida.Opacity = 0.5;
+            
+        }
+        /************************************************************************************************/
+
+        /*Metodos Auxiliares para todos los botones*/
+
+        private void increaseHealth(object sender, object e)
+        {
+           this.ProgressBar_Vida.Value += 0.2;
+           if (ProgressBar_Vida.Value >= 100)
+           {
+                this.dtTime.Stop();
+                this.Image_Pocion_De_Vida.Opacity = 1;
+           }
         }
     }
 }

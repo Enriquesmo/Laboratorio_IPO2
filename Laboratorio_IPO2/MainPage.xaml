@@ -32,7 +32,7 @@
                 <ImageBrush Stretch="Uniform" ImageSource="/Imagenes/ImagenEscudo.png"/>
             </Image.FocusVisualPrimaryBrush>
         </Image>
-        <Image x:Name="Image_Pocion_De_Vida" Grid.Column="2" Height="100" Width="100">
+        <Image x:Name="Image_Pocion_De_Vida" Grid.Column="2" PointerReleased="Image_Pocion_De_Vida_PointerReleased">
             <Image.FocusVisualPrimaryBrush>
                 <ImageBrush Stretch="Uniform" ImageSource="/Imagenes/Pocion de vida.png"/>
             </Image.FocusVisualPrimaryBrush>
