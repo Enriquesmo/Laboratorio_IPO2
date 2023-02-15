@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\fondo-desierto.png" />
+    <Content Include="Assets\Icono_Energía_Tierra.png" />
     <Content Include="Assets\ImagenEscudo.png" />
     <Content Include="Assets\ImagenVida.png" />
     <Content Include="Assets\Pocion de escudo.png" />
