@@ -234,120 +234,127 @@
                     <Path x:Name="Pierna_DerechaLinea4" Data="M319.93333,546.26667 L459.93333,536.93333" Fill="#FFF4F4F5" Height="10" Canvas.Left="41" Stroke="Black" Stretch="Fill" Canvas.Top="122.5" UseLayoutRounding="False" Width="141"/>
                 </Canvas>
                 <Canvas x:Name="Cabeza" Height="291" Width="272" Canvas.Left="142" Canvas.Top="51">
-                    <Path x:Name="Path_Oreja_Derecha_Fondo" Canvas.Left="-8.124" Stroke="Black" Width="86" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M79.933381,0.50213623 L80.979897,0.51875305 L81.309037,2.2486305 C83.994866,16.806587 85.5,33.130081 85.5,50.371719 C85.5,54.203194 85.425675,57.989326 85.280579,61.720825 L85.055787,66.341057 L84.310715,66.952667 C70.09385,78.473419 51.773152,89.770157 30.856997,99.309692 C23.884945,102.48953 16.954533,105.32362 10.145261,107.80698 L6.8979835,108.9548 L6.6528682,107.92926 C2.7484142,91.146393 0.50000045,71.444839 0.5,50.371719 C0.50000045,40.79303 0.96454874,31.497719 1.8380134,22.631088 L2.2269041,19.054298 L6.0020079,17.463562 C33.644158,6.1321945 59.984063,0.37268448 79.933381,0.50213623 z" Height="109" RenderTransformOrigin="0.50000000259904,0.460205653520102" Stretch="Fill" Canvas.Top="28.128" Fill="#FFE7C979">
-                        <Path.RenderTransform>
-                            <CompositeTransform Rotation="-160.876"/>
-                        </Path.RenderTransform>
-                    </Path>
-                    <Path x:Name="Path_Oreja_Derecha_Interior" Canvas.Left="38.278" Stroke="Black" Width="32" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M79.933381,0.50213623 L80.979897,0.51875305 L81.309037,2.2486305 C83.994866,16.806587 85.5,33.130081 85.5,50.371719 C85.5,54.203194 85.425675,57.989326 85.280579,61.720825 L85.055787,66.341057 L84.310715,66.952667 C70.09385,78.473419 51.773152,89.770157 30.856997,99.309692 C23.884945,102.48953 16.954533,105.32362 10.145261,107.80698 L6.8979835,108.9548 L6.6528682,107.92926 C2.7484142,91.146393 0.50000045,71.444839 0.5,50.371719 C0.50000045,40.79303 0.96454874,31.497719 1.8380134,22.631088 L2.2269041,19.054298 L6.0020079,17.463562 C33.644158,6.1321945 59.984063,0.37268448 79.933381,0.50213623 z" Height="67" RenderTransformOrigin="0.50000000259904,0.460205653520102" Stretch="Fill" Canvas.Top="48.806" Fill="#FFE9E5D0">
-                        <Path.RenderTransform>
-                            <CompositeTransform Rotation="-160.876"/>
-                        </Path.RenderTransform>
-                    </Path>
-                    <Canvas x:Name="Oreja_Derecha" Height="123" Width="99" Canvas.Left="173"/>
-                    <Path x:Name="Path_Oreja_Izquierda_Fondo" Canvas.Left="25.25" Stroke="Black" Width="86" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M79.933381,0.50213623 L80.979897,0.51875305 L81.309037,2.2486305 C83.994866,16.806587 85.5,33.130081 85.5,50.371719 C85.5,54.203194 85.425675,57.989326 85.280579,61.720825 L85.055787,66.341057 L84.310715,66.952667 C70.09385,78.473419 51.773152,89.770157 30.856997,99.309692 C23.884945,102.48953 16.954533,105.32362 10.145261,107.80698 L6.8979835,108.9548 L6.6528682,107.92926 C2.7484142,91.146393 0.50000045,71.444839 0.5,50.371719 C0.50000045,40.79303 0.96454874,31.497719 1.8380134,22.631088 L2.2269041,19.054298 L6.0020079,17.463562 C33.644158,6.1321945 59.984063,0.37268448 79.933381,0.50213623 z" Height="109" RenderTransformOrigin="0.50000000259904,0.460205653520102" Stretch="Fill" Canvas.Top="27.128" Fill="#FFE7C979">
-                        <Path.RenderTransform>
-                            <CompositeTransform Rotation="109.028"/>
-                        </Path.RenderTransform>
-                    </Path>
-                    <Path x:Name="Path_Oreja_Izquierda_Fondo1" Canvas.Left="25.25" Stroke="Black" Width="86" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M79.933381,0.50213623 L80.979897,0.51875305 L81.309037,2.2486305 C83.994866,16.806587 85.5,33.130081 85.5,50.371719 C85.5,54.203194 85.425675,57.989326 85.280579,61.720825 L85.055787,66.341057 L84.310715,66.952667 C70.09385,78.473419 51.773152,89.770157 30.856997,99.309692 C23.884945,102.48953 16.954533,105.32362 10.145261,107.80698 L6.8979835,108.9548 L6.6528682,107.92926 C2.7484142,91.146393 0.50000045,71.444839 0.5,50.371719 C0.50000045,40.79303 0.96454874,31.497719 1.8380134,22.631088 L2.2269041,19.054298 L6.0020079,17.463562 C33.644158,6.1321945 59.984063,0.37268448 79.933381,0.50213623 z" Height="109" RenderTransformOrigin="0.50000000259904,0.460205653520102" Stretch="Fill" Canvas.Top="27.128" Fill="#FFE7C979">
-                        <Path.RenderTransform>
-                            <CompositeTransform Rotation="109.028"/>
-                        </Path.RenderTransform>
-                    </Path>
-                    <Path x:Name="Path_Oreja_Izquierda_Fondo_Copy" Canvas.Left="44.908" Stroke="Black" Width="33" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M79.933381,0.50213623 L80.979897,0.51875305 L81.309037,2.2486305 C83.994866,16.806587 85.5,33.130081 85.5,50.371719 C85.5,54.203194 85.425675,57.989326 85.280579,61.720825 L85.055787,66.341057 L84.310715,66.952667 C70.09385,78.473419 51.773152,89.770157 30.856997,99.309692 C23.884945,102.48953 16.954533,105.32362 10.145261,107.80698 L6.8979835,108.9548 L6.6528682,107.92926 C2.7484142,91.146393 0.50000045,71.444839 0.5,50.371719 C0.50000045,40.79303 0.96454874,31.497719 1.8380134,22.631088 L2.2269041,19.054298 L6.0020079,17.463562 C33.644158,6.1321945 59.984063,0.37268448 79.933381,0.50213623 z" Height="96" RenderTransformOrigin="0.50000000259904,0.460205653520102" Stretch="Fill" Canvas.Top="47.132" Fill="#FFE9E5D0">
-                        <Path.RenderTransform>
-                            <CompositeTransform Rotation="137.173"/>
-                        </Path.RenderTransform>
-                    </Path>
-                    <Canvas x:Name="Oreja_Izquierda" Height="117" Width="113"/>
-                    <Path x:Name="Path_Nariz_Fondo_Gris_Contorno" Data="M116.5,0.5 C180.56504,0.5 232.5,52.658825 232.5,117 C232.5,178.32518 185.31983,228.58334 125.42509,233.16029 L123.74704,233.26709 L123.0631,234.35852 C120.06487,239.02538 117.06929,242.97923 114.47049,245.54451 C112.76503,247.22797 111.38938,248.15654 110.36051,248.39445 L110.3134,248.40118 L109.88683,248.58737 C107.27846,249.61592 104.224,249.41833 101.19529,248.11746 L101.13661,248.09059 L100.63563,247.97443 C88.7336,244.96539 70.827502,234.35495 52.872131,218.83057 C36.698997,204.84711 24.12227,190.02086 17.875293,178.51367 L17.327478,177.46381 L17.29371,177.40948 C6.63685,159.79504 0.50000298,139.11728 0.5,117 C0.50000298,52.658825 52.434974,0.5 116.5,0.5 z" Height="250" Canvas.Left="22.75" Stroke="Black" Stretch="Fill" Canvas.Top="36.5" UseLayoutRounding="False" Width="233" Fill="#FBEAE5D0"/>
-                    <Ellipse x:Name="Ellipse_Cara_Fondo_Amarillo" Height="231" Canvas.Left="24" Stroke="Black" Canvas.Top="38" Width="231" Fill="#FFE8CA7A" StrokeThickness="0"/>
-                    <Path x:Name="Path_Nariz_Fondo_Gris1" Data="M116.5,0.5 C180.56504,0.5 232.5,52.658825 232.5,117 C232.5,178.32518 185.31983,228.58334 125.42509,233.16029 L123.74704,233.26709 L123.0631,234.35852 C120.06487,239.02538 117.06929,242.97923 114.47049,245.54451 C112.76503,247.22797 111.38938,248.15654 110.36051,248.39445 L110.3134,248.40118 L109.88683,248.58737 C107.27846,249.61592 104.224,249.41833 101.19529,248.11746 L101.13661,248.09059 L100.63563,247.97443 C88.7336,244.96539 70.827502,234.35495 52.872131,218.83057 C36.698997,204.84711 24.12227,190.02086 17.875293,178.51367 L17.327478,177.46381 L17.29371,177.40948 C6.63685,159.79504 0.50000298,139.11728 0.5,117 C0.50000298,52.658825 52.434974,0.5 116.5,0.5 z" Height="126" Canvas.Left="51.914" Stroke="Black" Stretch="Fill" Canvas.Top="151.169" UseLayoutRounding="False" Width="177" Fill="#FBEAE5D0" RenderTransformOrigin="0.5,0.5" >
-                        <Path.RenderTransform>
-                            <CompositeTransform Rotation="-1.572"/>
-                        </Path.RenderTransform>
-                    </Path>
-                    <Path x:Name="Path_Nariz_Fondo_Gris2" Data="M116.5,0.5 C180.56504,0.5 232.5,52.658825 232.5,117 C232.5,178.32518 185.31983,228.58334 125.42509,233.16029 L123.74704,233.26709 L123.0631,234.35852 C120.06487,239.02538 117.06929,242.97923 114.47049,245.54451 C112.76503,247.22797 111.38938,248.15654 110.36051,248.39445 L110.3134,248.40118 L109.88683,248.58737 C107.27846,249.61592 104.224,249.41833 101.19529,248.11746 L101.13661,248.09059 L100.63563,247.97443 C88.7336,244.96539 70.827502,234.35495 52.872131,218.83057 C36.698997,204.84711 24.12227,190.02086 17.875293,178.51367 L17.327478,177.46381 L17.29371,177.40948 C6.63685,159.79504 0.50000298,139.11728 0.5,117 C0.50000298,52.658825 52.434974,0.5 116.5,0.5 z" Height="126" Canvas.Left="52.66" Stroke="Black" Stretch="Fill" Canvas.Top="152.673" UseLayoutRounding="False" Width="171" Fill="#FBEAE5D0" RenderTransformOrigin="0.5,0.5" StrokeThickness="0">
-                        <Path.RenderTransform>
-                            <CompositeTransform Rotation="-3.096"/>
-                        </Path.RenderTransform>
-                    </Path>
-                    <Ellipse x:Name="Ellipse_Fondo_Auxiliar1" Height="189" Canvas.Left="28" Stroke="Black" Canvas.Top="78.955" Width="134" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="#FFEAE5D0" StrokeThickness="0">
-                        <Ellipse.RenderTransform>
-                            <CompositeTransform Rotation="-22.215"/>
-                        </Ellipse.RenderTransform>
-                    </Ellipse>
-                    <Canvas x:Name="Cara_Fondo" Height="291" Width="272"/>
-                    <Path x:Name="Path_Cara_Frente_RellenoDeColor1" Canvas.Left="46.438" Stroke="Black" Canvas.Top="77.288" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M52.5,0.5 C67.756866,0.5000011 81.479088,9.7240717 90.991341,24.416448 L91.535896,25.277988 L91.571732,25.260547 C114.03722,14.553392 135.64151,13.827533 147.58279,25.459134 C165.77904,43.18348 154.64729,82.889947 122.71935,114.146 C96.777885,139.54155 65.089287,151.54488 44.358021,145.64638 L43.809135,145.47937 L43.295139,145.35982 C18.966942,139.25923 0.5,109.40714 0.5,73.500001 C0.5,33.183213 23.781193,0.5000011 52.5,0.5 z" Height="148" RenderTransformOrigin="0.334770731029547,0.497883719707406" Stretch="Fill" Width="157" Fill="#FFE7C979">
-                        <Path.RenderTransform>
-                            <CompositeTransform Rotation="-15.292" SkewX="0.685" ScaleX="0.998" ScaleY="1.002"/>
-                        </Path.RenderTransform>
-                    </Path>
-                    <Ellipse x:Name="Ellipse_Cara_Frente_RellenoDeColor1" Height="142" Canvas.Left="40.191" Stroke="Black" Canvas.Top="36.784" Width="85" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="#FFE7C979" StrokeThickness="0">
-                        <Ellipse.RenderTransform>
-                            <CompositeTransform Rotation="40.559" SkewX="0.685" ScaleX="0.998" ScaleY="1.002"/>
-                        </Ellipse.RenderTransform>
-                    </Ellipse>
-                    <Ellipse x:Name="Ellipse_Cara_Frente_RellenoDeColor2" Height="133" Canvas.Left="136.259" Stroke="Black" Canvas.Top="33.964" Width="80" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="#FFE7C979" StrokeThickness="0">
-                        <Ellipse.RenderTransform>
-                            <CompositeTransform Rotation="-34.433" SkewX="0.685" ScaleX="0.998" ScaleY="1.002"/>
-                        </Ellipse.RenderTransform>
-                    </Ellipse>
-                    <Path x:Name="Path_Lineado_Cara_Frente" Canvas.Left="46.688" Stroke="Black" Canvas.Top="74.373" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M52.5,0.5 C67.756866,0.5000011 81.479088,9.7240717 90.991341,24.416448 L91.535896,25.277988 L91.571732,25.260547 C114.03722,14.553392 135.64151,13.827533 147.58279,25.459134 C165.77904,43.18348 154.64729,82.889947 122.71935,114.146 C96.777885,139.54155 65.089287,151.54488 44.358021,145.64638 L43.809135,145.47937 L43.295139,145.35982 C18.966942,139.25923 0.5,109.40714 0.5,73.500001 C0.5,33.183213 23.781193,0.5000011 52.5,0.5 z" Height="148" RenderTransformOrigin="0.334770731029547,0.497883719707406" Stretch="Fill" Width="157" Fill="#FFE7C979" StrokeThickness="0">
-                        <Path.RenderTransform>
-                            <CompositeTransform Rotation="-15.292" SkewX="0.685" ScaleX="0.998" ScaleY="1.002"/>
-                        </Path.RenderTransform>
-                    </Path>
-                    <Canvas x:Name="Cara_Frente" Height="291" Width="272"/>
-                    <Path x:Name="Path_Ojo_Derecho_Interior" Canvas.Left="8.448" Stroke="Black" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M13.424484,0.5 L13.781514,0.60040188 C22.642204,3.2822268 31.239805,15.933969 34.469723,32.312194 C38.369999,52.089671 32.966324,69.811664 22.400273,71.895374 C18.933287,72.579089 15.341278,71.494144 11.941779,69.028903 L11.838549,68.951846 L11.545943,68.692622 C5.010163,62.717098 0.50000021,50.028545 0.5,35.34122 C0.50000021,19.376739 5.8286426,5.773752 13.295246,0.58637023 z" Height="84" RenderTransformOrigin="0.551920916597538,0.486817137128121" Stretch="Fill" Canvas.Top="8.839" Width="51" Fill="#FF0B1F2A">
-                        <Path.RenderTransform>
-                            <CompositeTransform Rotation="-149.45"/>
-                        </Path.RenderTransform>
-                    </Path>
-                    <Path x:Name="Path_Ojo_Derecho_AzulClaro" Canvas.Left="15.392" Stroke="Black" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M13.424484,0.5 L13.781514,0.60040188 C22.642204,3.2822268 31.239805,15.933969 34.469723,32.312194 C38.369999,52.089671 32.966324,69.811664 22.400273,71.895374 C18.933287,72.579089 15.341278,71.494144 11.941779,69.028903 L11.838549,68.951846 L11.545943,68.692622 C5.010163,62.717098 0.50000021,50.028545 0.5,35.34122 C0.50000021,19.376739 5.8286426,5.773752 13.295246,0.58637023 z" Height="34" RenderTransformOrigin="0.551920916597538,0.486817137128121" Stretch="Fill" Canvas.Top="54.604" Width="22" Fill="#FF124F77" StrokeThickness="0">
-                        <Path.RenderTransform>
-                            <CompositeTransform Rotation="-149.45" SkewX="-20.426" SkewY="-9.689" ScaleX="0.986" ScaleY="1.083" TranslateX="8.038" TranslateY="4.013"/>
-                        </Path.RenderTransform>
-                    </Path>
-                    <Ellipse x:Name="Ellipse_Ojo_Derecho_Blanco" Height="44" Canvas.Left="27.514" Stroke="Black" Canvas.Top="8.785" Width="25" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="White">
-                        <Ellipse.RenderTransform>
-                            <CompositeTransform Rotation="22.445" SkewX="-9.418" TranslateX="-2.754" TranslateY="-1.137"/>
-                        </Ellipse.RenderTransform>
-                    </Ellipse>
-                    <Canvas x:Name="Ojo_Derecho" Height="99" Width="86" Canvas.Left="170" Canvas.Top="109"/>
-                    <Path x:Name="Path_Ojo_Izquierdo_Interior" Height="85" Canvas.Left="19.747" Stroke="Black" Canvas.Top="4.842" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M23.000002,0.5 C24.019356,0.50000125 25.022877,0.63708064 26.006306,0.90261951 L26.220037,0.96448883 L26.347513,1.1537561 C26.434484,1.2780133 26.526155,1.4043932 26.622408,1.5327646 L26.913664,1.9093509 L28.282507,89.72577 L28.129291,89.85827 C27.940723,90.023569 27.751373,90.191781 27.561388,90.36281 L27.177982,90.712495 L26.844221,90.838518 C25.595024,91.273401 24.310598,91.500001 23.000002,91.500001 C10.573595,91.500001 0.50000179,71.128961 0.5,46.000001 C0.50000179,20.871046 10.573595,0.50000134 23.000002,0.5 z" RenderTransformOrigin="0.799096546007897,0.500000007288611" Stretch="Fill" Width="27" Fill="#FF0B1F2A">
-                        <Path.RenderTransform>
-                            <CompositeTransform Rotation="-13.386" SkewY="-1.051" ScaleX="1.002" ScaleY="0.998"/>
-                        </Path.RenderTransform>
-                    </Path>
-                    <Path x:Name="Ellipse_Ojo_Izquierdo_Blanco" Canvas.Left="21.198" Stroke="Black" Width="21" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="White" Data="M17.936054,0.50007439 C19.748142,0.49259591 21.132305,1.0497224 21.617571,2.1556965 C21.674659,2.2858112 21.717958,2.4204427 21.747953,2.5589855 L21.750848,2.5763791 L21.833545,2.5795823 L21.866991,3.5515266 L21.89389,3.8695778 C21.900242,3.9854139 21.9034,4.104098 21.90337,4.22543 L21.897701,4.4440255 L22.587959,24.503528 L22.443083,24.497917 L22.450035,24.619993 C22.483091,25.346181 22.5,26.082214 22.5,26.826503 C22.5,39.529052 17.575132,49.826503 11.5,49.826503 C5.4248673,49.826503 0.4999997,39.529052 0.5,26.826503 C0.4999997,16.902637 3.5059003,8.4467258 7.7178308,5.222137 L7.9373028,5.0605071 L8.0702292,4.9131035 C9.1307694,3.7767164 10.651158,2.6862085 12.463401,1.849412 C14.405089,0.95284462 16.337152,0.50667405 17.936054,0.50007439 z" Height="46" RenderTransformOrigin="0.498095119893311,0.533049219200937" Stretch="Fill" Canvas.Top="9.354">
-                        <Path.RenderTransform>
-                            <CompositeTransform Rotation="-12.328" SkewX="0" TranslateX="-0.789" TranslateY="-2.191" SkewY="-5.31" ScaleX="0.997" ScaleY="1.004"/>
-                        </Path.RenderTransform>
-                    </Path>
-                    <Path x:Name="Path_Ojo_Izquierdo_AzulClaro1" Height="24" Canvas.Left="37.826" Stroke="Black" Canvas.Top="63.833" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M23.000002,0.5 C24.019356,0.50000125 25.022877,0.63708064 26.006306,0.90261951 L26.220037,0.96448883 L26.347513,1.1537561 C26.434484,1.2780133 26.526155,1.4043932 26.622408,1.5327646 L26.913664,1.9093509 L28.282507,89.72577 L28.129291,89.85827 C27.940723,90.023569 27.751373,90.191781 27.561388,90.36281 L27.177982,90.712495 L26.844221,90.838518 C25.595024,91.273401 24.310598,91.500001 23.000002,91.500001 C10.573595,91.500001 0.50000179,71.128961 0.5,46.000001 C0.50000179,20.871046 10.573595,0.50000134 23.000002,0.5 z" RenderTransformOrigin="0.799096546007897,0.500000007288611" Stretch="Fill" Width="14" Fill="#FF135077" StrokeThickness="0">
-                        <Path.RenderTransform>
-                            <CompositeTransform Rotation="1.048" SkewX="14.435" SkewY="0" ScaleX="1.071" ScaleY="0.933" TranslateX="-0.193" TranslateY="-0.779"/>
-                        </Path.RenderTransform>
-                    </Path>
-                    <Ellipse x:Name="Ellipse_Ojo_Izquierdo_AzulClaro2" Height="23" Canvas.Left="36.278" Stroke="Black" Canvas.Top="66.68" Width="15" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="#FF135077" StrokeThickness="0">
-                        <Ellipse.RenderTransform>
-                            <CompositeTransform Rotation="-30.854" SkewX="0" SkewY="-7.548" ScaleX="1.001" ScaleY="0.999" TranslateX="0.835" TranslateY="-0.637"/>
-                        </Ellipse.RenderTransform>
-                    </Ellipse>
-                    <Ellipse x:Name="Ellipse_Ojo_Izquierdo_AzulClaro3" Height="6" Canvas.Left="46.5" Stroke="Black" Canvas.Top="81.914" Width="8" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="#FF135077" StrokeThickness="0">
-                        <Ellipse.RenderTransform>
-                            <CompositeTransform Rotation="-24.242" SkewY="-1.731" ScaleX="1.007" ScaleY="0.993"/>
-                        </Ellipse.RenderTransform>
-                    </Ellipse>
-                    <Canvas x:Name="Ojo_Izquierdo" Height="99" Width="69" Canvas.Top="109"/>
-                    <Path x:Name="CabezaLinea1" Data="M190.6,199.6 L330.1,199.6" Fill="#FFF4F4F5" Height="1" Canvas.Left="56.35" Stroke="Black" Stretch="Fill" Canvas.Top="183.475" UseLayoutRounding="False" Width="114"/>
-                    <Path x:Name="CabezaLinea2" Data="M250.35,168.35 L250.35,230.1" Fill="#FFF4F4F5" Height="63" Canvas.Left="107.1" Stroke="Black" Stretch="Fill" Canvas.Top="121.85" UseLayoutRounding="False" Width="1"/>
-                    <Path x:Name="CabezaLinea3" Data="M181.35,168.35 L349.85,168.35" Fill="#FFF4F4F5" Height="1" Canvas.Left="37.975" Stroke="Black" Stretch="Fill" Canvas.Top="121.85" UseLayoutRounding="False" Width="170"/>
-                    <Path x:Name="CabezaLinea4" Data="M217.1,168.6 L217.1,102.6" Fill="#FFF4F4F5" Height="67" Canvas.Left="73.85" Stroke="Black" Stretch="Fill" Canvas.Top="56.1" UseLayoutRounding="False" Width="1"/>
-                    <Path x:Name="CabezaLinea5" Data="M316,168.35001 L316,88.85" Fill="#FFF4F4F5" Height="80" Canvas.Left="172.75" Stroke="Black" Stretch="Fill" Canvas.Top="41.975" UseLayoutRounding="False" Width="1"/>
-                    <Canvas x:Name="LineadoCabeza" Height="291" Width="272"/>
+                    <Canvas x:Name="Oreja_Derecha" Height="123" Width="99" Canvas.Left="173">
+                        <Path x:Name="Path_Oreja_Derecha_Fondo" Canvas.Left="-8.124" Stroke="Black" Width="86" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M79.933381,0.50213623 L80.979897,0.51875305 L81.309037,2.2486305 C83.994866,16.806587 85.5,33.130081 85.5,50.371719 C85.5,54.203194 85.425675,57.989326 85.280579,61.720825 L85.055787,66.341057 L84.310715,66.952667 C70.09385,78.473419 51.773152,89.770157 30.856997,99.309692 C23.884945,102.48953 16.954533,105.32362 10.145261,107.80698 L6.8979835,108.9548 L6.6528682,107.92926 C2.7484142,91.146393 0.50000045,71.444839 0.5,50.371719 C0.50000045,40.79303 0.96454874,31.497719 1.8380134,22.631088 L2.2269041,19.054298 L6.0020079,17.463562 C33.644158,6.1321945 59.984063,0.37268448 79.933381,0.50213623 z" Height="109" RenderTransformOrigin="0.50000000259904,0.460205653520102" Stretch="Fill" Canvas.Top="28.128" Fill="#FFE7C979">
+                            <Path.RenderTransform>
+                                <CompositeTransform Rotation="-160.876"/>
+                            </Path.RenderTransform>
+                        </Path>
+                        <Path x:Name="Path_Oreja_Derecha_Interior" Canvas.Left="38.278" Stroke="Black" Width="32" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M79.933381,0.50213623 L80.979897,0.51875305 L81.309037,2.2486305 C83.994866,16.806587 85.5,33.130081 85.5,50.371719 C85.5,54.203194 85.425675,57.989326 85.280579,61.720825 L85.055787,66.341057 L84.310715,66.952667 C70.09385,78.473419 51.773152,89.770157 30.856997,99.309692 C23.884945,102.48953 16.954533,105.32362 10.145261,107.80698 L6.8979835,108.9548 L6.6528682,107.92926 C2.7484142,91.146393 0.50000045,71.444839 0.5,50.371719 C0.50000045,40.79303 0.96454874,31.497719 1.8380134,22.631088 L2.2269041,19.054298 L6.0020079,17.463562 C33.644158,6.1321945 59.984063,0.37268448 79.933381,0.50213623 z" Height="67" RenderTransformOrigin="0.50000000259904,0.460205653520102" Stretch="Fill" Canvas.Top="48.806" Fill="#FFE9E5D0">
+                            <Path.RenderTransform>
+                                <CompositeTransform Rotation="-160.876"/>
+                            </Path.RenderTransform>
+                        </Path>
+                    </Canvas>
+                    <Canvas x:Name="Oreja_Izquierda" Height="117" Width="113">
+                        <Path x:Name="Path_Oreja_Izquierda_Fondo" Canvas.Left="25.25" Stroke="Black" Width="86" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M79.933381,0.50213623 L80.979897,0.51875305 L81.309037,2.2486305 C83.994866,16.806587 85.5,33.130081 85.5,50.371719 C85.5,54.203194 85.425675,57.989326 85.280579,61.720825 L85.055787,66.341057 L84.310715,66.952667 C70.09385,78.473419 51.773152,89.770157 30.856997,99.309692 C23.884945,102.48953 16.954533,105.32362 10.145261,107.80698 L6.8979835,108.9548 L6.6528682,107.92926 C2.7484142,91.146393 0.50000045,71.444839 0.5,50.371719 C0.50000045,40.79303 0.96454874,31.497719 1.8380134,22.631088 L2.2269041,19.054298 L6.0020079,17.463562 C33.644158,6.1321945 59.984063,0.37268448 79.933381,0.50213623 z" Height="109" RenderTransformOrigin="0.50000000259904,0.460205653520102" Stretch="Fill" Canvas.Top="27.128" Fill="#FFE7C979">
+                            <Path.RenderTransform>
+                                <CompositeTransform Rotation="109.028"/>
+                            </Path.RenderTransform>
+                        </Path>
+                        <Path x:Name="Path_Oreja_Izquierda_Fondo1" Canvas.Left="25.25" Stroke="Black" Width="86" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M79.933381,0.50213623 L80.979897,0.51875305 L81.309037,2.2486305 C83.994866,16.806587 85.5,33.130081 85.5,50.371719 C85.5,54.203194 85.425675,57.989326 85.280579,61.720825 L85.055787,66.341057 L84.310715,66.952667 C70.09385,78.473419 51.773152,89.770157 30.856997,99.309692 C23.884945,102.48953 16.954533,105.32362 10.145261,107.80698 L6.8979835,108.9548 L6.6528682,107.92926 C2.7484142,91.146393 0.50000045,71.444839 0.5,50.371719 C0.50000045,40.79303 0.96454874,31.497719 1.8380134,22.631088 L2.2269041,19.054298 L6.0020079,17.463562 C33.644158,6.1321945 59.984063,0.37268448 79.933381,0.50213623 z" Height="109" RenderTransformOrigin="0.50000000259904,0.460205653520102" Stretch="Fill" Canvas.Top="27.128" Fill="#FFE7C979">
+                            <Path.RenderTransform>
+                                <CompositeTransform Rotation="109.028"/>
+                            </Path.RenderTransform>
+                        </Path>
+                        <Path x:Name="Path_Oreja_Izquierda_Fondo_Copy" Canvas.Left="44.908" Stroke="Black" Width="33" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M79.933381,0.50213623 L80.979897,0.51875305 L81.309037,2.2486305 C83.994866,16.806587 85.5,33.130081 85.5,50.371719 C85.5,54.203194 85.425675,57.989326 85.280579,61.720825 L85.055787,66.341057 L84.310715,66.952667 C70.09385,78.473419 51.773152,89.770157 30.856997,99.309692 C23.884945,102.48953 16.954533,105.32362 10.145261,107.80698 L6.8979835,108.9548 L6.6528682,107.92926 C2.7484142,91.146393 0.50000045,71.444839 0.5,50.371719 C0.50000045,40.79303 0.96454874,31.497719 1.8380134,22.631088 L2.2269041,19.054298 L6.0020079,17.463562 C33.644158,6.1321945 59.984063,0.37268448 79.933381,0.50213623 z" Height="96" RenderTransformOrigin="0.50000000259904,0.460205653520102" Stretch="Fill" Canvas.Top="47.132" Fill="#FFE9E5D0">
+                            <Path.RenderTransform>
+                                <CompositeTransform Rotation="137.173"/>
+                            </Path.RenderTransform>
+                        </Path>
+                    </Canvas>
+                    <Canvas x:Name="Cara_Fondo" Height="291" Width="272">
+                        <Path x:Name="Path_Nariz_Fondo_Gris_Contorno" Data="M116.5,0.5 C180.56504,0.5 232.5,52.658825 232.5,117 C232.5,178.32518 185.31983,228.58334 125.42509,233.16029 L123.74704,233.26709 L123.0631,234.35852 C120.06487,239.02538 117.06929,242.97923 114.47049,245.54451 C112.76503,247.22797 111.38938,248.15654 110.36051,248.39445 L110.3134,248.40118 L109.88683,248.58737 C107.27846,249.61592 104.224,249.41833 101.19529,248.11746 L101.13661,248.09059 L100.63563,247.97443 C88.7336,244.96539 70.827502,234.35495 52.872131,218.83057 C36.698997,204.84711 24.12227,190.02086 17.875293,178.51367 L17.327478,177.46381 L17.29371,177.40948 C6.63685,159.79504 0.50000298,139.11728 0.5,117 C0.50000298,52.658825 52.434974,0.5 116.5,0.5 z" Height="250" Canvas.Left="22.75" Stroke="Black" Stretch="Fill" Canvas.Top="36.5" UseLayoutRounding="False" Width="233" Fill="#FBEAE5D0"/>
+                        <Ellipse x:Name="Ellipse_Cara_Fondo_Amarillo" Height="231" Canvas.Left="24" Stroke="Black" Canvas.Top="38" Width="231" Fill="#FFE8CA7A" StrokeThickness="0"/>
+                        <Path x:Name="Path_Nariz_Fondo_Gris1" Data="M116.5,0.5 C180.56504,0.5 232.5,52.658825 232.5,117 C232.5,178.32518 185.31983,228.58334 125.42509,233.16029 L123.74704,233.26709 L123.0631,234.35852 C120.06487,239.02538 117.06929,242.97923 114.47049,245.54451 C112.76503,247.22797 111.38938,248.15654 110.36051,248.39445 L110.3134,248.40118 L109.88683,248.58737 C107.27846,249.61592 104.224,249.41833 101.19529,248.11746 L101.13661,248.09059 L100.63563,247.97443 C88.7336,244.96539 70.827502,234.35495 52.872131,218.83057 C36.698997,204.84711 24.12227,190.02086 17.875293,178.51367 L17.327478,177.46381 L17.29371,177.40948 C6.63685,159.79504 0.50000298,139.11728 0.5,117 C0.50000298,52.658825 52.434974,0.5 116.5,0.5 z" Height="126" Canvas.Left="51.914" Stroke="Black" Stretch="Fill" Canvas.Top="151.169" UseLayoutRounding="False" Width="177" Fill="#FBEAE5D0" RenderTransformOrigin="0.5,0.5" >
+                            <Path.RenderTransform>
+                                <CompositeTransform Rotation="-1.572"/>
+                            </Path.RenderTransform>
+                        </Path>
+                        <Path x:Name="Path_Nariz_Fondo_Gris2" Data="M116.5,0.5 C180.56504,0.5 232.5,52.658825 232.5,117 C232.5,178.32518 185.31983,228.58334 125.42509,233.16029 L123.74704,233.26709 L123.0631,234.35852 C120.06487,239.02538 117.06929,242.97923 114.47049,245.54451 C112.76503,247.22797 111.38938,248.15654 110.36051,248.39445 L110.3134,248.40118 L109.88683,248.58737 C107.27846,249.61592 104.224,249.41833 101.19529,248.11746 L101.13661,248.09059 L100.63563,247.97443 C88.7336,244.96539 70.827502,234.35495 52.872131,218.83057 C36.698997,204.84711 24.12227,190.02086 17.875293,178.51367 L17.327478,177.46381 L17.29371,177.40948 C6.63685,159.79504 0.50000298,139.11728 0.5,117 C0.50000298,52.658825 52.434974,0.5 116.5,0.5 z" Height="126" Canvas.Left="52.66" Stroke="Black" Stretch="Fill" Canvas.Top="152.673" UseLayoutRounding="False" Width="171" Fill="#FBEAE5D0" RenderTransformOrigin="0.5,0.5" StrokeThickness="0">
+                            <Path.RenderTransform>
+                                <CompositeTransform Rotation="-3.096"/>
+                            </Path.RenderTransform>
+                        </Path>
+                        <Ellipse x:Name="Ellipse_Fondo_Auxiliar1" Height="189" Canvas.Left="28" Stroke="Black" Canvas.Top="78.955" Width="134" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="#FFEAE5D0" StrokeThickness="0">
+                            <Ellipse.RenderTransform>
+                                <CompositeTransform Rotation="-22.215"/>
+                            </Ellipse.RenderTransform>
+                        </Ellipse>
+                    </Canvas>
+                    <Canvas x:Name="Cara_Frente" Height="291" Width="272">
+                        <Path x:Name="Path_Cara_Frente_RellenoDeColor1" Canvas.Left="46.438" Stroke="Black" Canvas.Top="77.288" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M52.5,0.5 C67.756866,0.5000011 81.479088,9.7240717 90.991341,24.416448 L91.535896,25.277988 L91.571732,25.260547 C114.03722,14.553392 135.64151,13.827533 147.58279,25.459134 C165.77904,43.18348 154.64729,82.889947 122.71935,114.146 C96.777885,139.54155 65.089287,151.54488 44.358021,145.64638 L43.809135,145.47937 L43.295139,145.35982 C18.966942,139.25923 0.5,109.40714 0.5,73.500001 C0.5,33.183213 23.781193,0.5000011 52.5,0.5 z" Height="148" RenderTransformOrigin="0.334770731029547,0.497883719707406" Stretch="Fill" Width="157" Fill="#FFE7C979">
+                            <Path.RenderTransform>
+                                <CompositeTransform Rotation="-15.292" SkewX="0.685" ScaleX="0.998" ScaleY="1.002"/>
+                            </Path.RenderTransform>
+                        </Path>
+                        <Ellipse x:Name="Ellipse_Cara_Frente_RellenoDeColor1" Height="142" Canvas.Left="40.191" Stroke="Black" Canvas.Top="36.784" Width="85" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="#FFE7C979" StrokeThickness="0">
+                            <Ellipse.RenderTransform>
+                                <CompositeTransform Rotation="40.559" SkewX="0.685" ScaleX="0.998" ScaleY="1.002"/>
+                            </Ellipse.RenderTransform>
+                        </Ellipse>
+                        <Ellipse x:Name="Ellipse_Cara_Frente_RellenoDeColor2" Height="133" Canvas.Left="136.259" Stroke="Black" Canvas.Top="33.964" Width="80" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="#FFE7C979" StrokeThickness="0">
+                            <Ellipse.RenderTransform>
+                                <CompositeTransform Rotation="-34.433" SkewX="0.685" ScaleX="0.998" ScaleY="1.002"/>
+                            </Ellipse.RenderTransform>
+                        </Ellipse>
+                        <Path x:Name="Path_Lineado_Cara_Frente" Canvas.Left="46.688" Stroke="Black" Canvas.Top="74.373" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M52.5,0.5 C67.756866,0.5000011 81.479088,9.7240717 90.991341,24.416448 L91.535896,25.277988 L91.571732,25.260547 C114.03722,14.553392 135.64151,13.827533 147.58279,25.459134 C165.77904,43.18348 154.64729,82.889947 122.71935,114.146 C96.777885,139.54155 65.089287,151.54488 44.358021,145.64638 L43.809135,145.47937 L43.295139,145.35982 C18.966942,139.25923 0.5,109.40714 0.5,73.500001 C0.5,33.183213 23.781193,0.5000011 52.5,0.5 z" Height="148" RenderTransformOrigin="0.334770731029547,0.497883719707406" Stretch="Fill" Width="157" Fill="#FFE7C979" StrokeThickness="0">
+                            <Path.RenderTransform>
+                                <CompositeTransform Rotation="-15.292" SkewX="0.685" ScaleX="0.998" ScaleY="1.002"/>
+                            </Path.RenderTransform>
+                        </Path>
+                    </Canvas>
+                    <Canvas x:Name="Ojo_Derecho" Height="99" Width="86" Canvas.Left="170" Canvas.Top="109">
+                        <Path x:Name="Path_Ojo_Derecho_Interior" Canvas.Left="8.448" Stroke="Black" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M13.424484,0.5 L13.781514,0.60040188 C22.642204,3.2822268 31.239805,15.933969 34.469723,32.312194 C38.369999,52.089671 32.966324,69.811664 22.400273,71.895374 C18.933287,72.579089 15.341278,71.494144 11.941779,69.028903 L11.838549,68.951846 L11.545943,68.692622 C5.010163,62.717098 0.50000021,50.028545 0.5,35.34122 C0.50000021,19.376739 5.8286426,5.773752 13.295246,0.58637023 z" Height="84" RenderTransformOrigin="0.551920916597538,0.486817137128121" Stretch="Fill" Canvas.Top="8.839" Width="51" Fill="#FF0B1F2A">
+                            <Path.RenderTransform>
+                                <CompositeTransform Rotation="-149.45"/>
+                            </Path.RenderTransform>
+                        </Path>
+                        <Path x:Name="Path_Ojo_Derecho_AzulClaro" Canvas.Left="15.392" Stroke="Black" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M13.424484,0.5 L13.781514,0.60040188 C22.642204,3.2822268 31.239805,15.933969 34.469723,32.312194 C38.369999,52.089671 32.966324,69.811664 22.400273,71.895374 C18.933287,72.579089 15.341278,71.494144 11.941779,69.028903 L11.838549,68.951846 L11.545943,68.692622 C5.010163,62.717098 0.50000021,50.028545 0.5,35.34122 C0.50000021,19.376739 5.8286426,5.773752 13.295246,0.58637023 z" Height="34" RenderTransformOrigin="0.551920916597538,0.486817137128121" Stretch="Fill" Canvas.Top="54.604" Width="22" Fill="#FF124F77" StrokeThickness="0">
+                            <Path.RenderTransform>
+                                <CompositeTransform Rotation="-149.45" SkewX="-20.426" SkewY="-9.689" ScaleX="0.986" ScaleY="1.083" TranslateX="8.038" TranslateY="4.013"/>
+                            </Path.RenderTransform>
+                        </Path>
+                        <Ellipse x:Name="Ellipse_Ojo_Derecho_Blanco" Height="44" Canvas.Left="27.514" Stroke="Black" Canvas.Top="8.785" Width="25" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="White">
+                            <Ellipse.RenderTransform>
+                                <CompositeTransform Rotation="22.445" SkewX="-9.418" TranslateX="-2.754" TranslateY="-1.137"/>
+                            </Ellipse.RenderTransform>
+                        </Ellipse>
+                    </Canvas>
+                    <Canvas x:Name="Ojo_Izquierdo" Height="99" Width="69" Canvas.Top="109">
+                        <Path x:Name="Path_Ojo_Izquierdo_Interior" Height="85" Canvas.Left="19.747" Stroke="Black" Canvas.Top="4.842" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M23.000002,0.5 C24.019356,0.50000125 25.022877,0.63708064 26.006306,0.90261951 L26.220037,0.96448883 L26.347513,1.1537561 C26.434484,1.2780133 26.526155,1.4043932 26.622408,1.5327646 L26.913664,1.9093509 L28.282507,89.72577 L28.129291,89.85827 C27.940723,90.023569 27.751373,90.191781 27.561388,90.36281 L27.177982,90.712495 L26.844221,90.838518 C25.595024,91.273401 24.310598,91.500001 23.000002,91.500001 C10.573595,91.500001 0.50000179,71.128961 0.5,46.000001 C0.50000179,20.871046 10.573595,0.50000134 23.000002,0.5 z" RenderTransformOrigin="0.799096546007897,0.500000007288611" Stretch="Fill" Width="27" Fill="#FF0B1F2A">
+                            <Path.RenderTransform>
+                                <CompositeTransform Rotation="-13.386" SkewY="-1.051" ScaleX="1.002" ScaleY="0.998"/>
+                            </Path.RenderTransform>
+                        </Path>
+                        <Path x:Name="Ellipse_Ojo_Izquierdo_Blanco" Canvas.Left="21.198" Stroke="Black" Width="21" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="White" Data="M17.936054,0.50007439 C19.748142,0.49259591 21.132305,1.0497224 21.617571,2.1556965 C21.674659,2.2858112 21.717958,2.4204427 21.747953,2.5589855 L21.750848,2.5763791 L21.833545,2.5795823 L21.866991,3.5515266 L21.89389,3.8695778 C21.900242,3.9854139 21.9034,4.104098 21.90337,4.22543 L21.897701,4.4440255 L22.587959,24.503528 L22.443083,24.497917 L22.450035,24.619993 C22.483091,25.346181 22.5,26.082214 22.5,26.826503 C22.5,39.529052 17.575132,49.826503 11.5,49.826503 C5.4248673,49.826503 0.4999997,39.529052 0.5,26.826503 C0.4999997,16.902637 3.5059003,8.4467258 7.7178308,5.222137 L7.9373028,5.0605071 L8.0702292,4.9131035 C9.1307694,3.7767164 10.651158,2.6862085 12.463401,1.849412 C14.405089,0.95284462 16.337152,0.50667405 17.936054,0.50007439 z" Height="46" RenderTransformOrigin="0.498095119893311,0.533049219200937" Stretch="Fill" Canvas.Top="9.354">
+                            <Path.RenderTransform>
+                                <CompositeTransform Rotation="-12.328" SkewX="0" TranslateX="-0.789" TranslateY="-2.191" SkewY="-5.31" ScaleX="0.997" ScaleY="1.004"/>
+                            </Path.RenderTransform>
+                        </Path>
+                        <Path x:Name="Path_Ojo_Izquierdo_AzulClaro1" Height="24" Canvas.Left="37.826" Stroke="Black" Canvas.Top="63.833" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M23.000002,0.5 C24.019356,0.50000125 25.022877,0.63708064 26.006306,0.90261951 L26.220037,0.96448883 L26.347513,1.1537561 C26.434484,1.2780133 26.526155,1.4043932 26.622408,1.5327646 L26.913664,1.9093509 L28.282507,89.72577 L28.129291,89.85827 C27.940723,90.023569 27.751373,90.191781 27.561388,90.36281 L27.177982,90.712495 L26.844221,90.838518 C25.595024,91.273401 24.310598,91.500001 23.000002,91.500001 C10.573595,91.500001 0.50000179,71.128961 0.5,46.000001 C0.50000179,20.871046 10.573595,0.50000134 23.000002,0.5 z" RenderTransformOrigin="0.799096546007897,0.500000007288611" Stretch="Fill" Width="14" Fill="#FF135077" StrokeThickness="0">
+                            <Path.RenderTransform>
+                                <CompositeTransform Rotation="1.048" SkewX="14.435" SkewY="0" ScaleX="1.071" ScaleY="0.933" TranslateX="-0.193" TranslateY="-0.779"/>
+                            </Path.RenderTransform>
+                        </Path>
+                        <Ellipse x:Name="Ellipse_Ojo_Izquierdo_AzulClaro2" Height="23" Canvas.Left="36.278" Stroke="Black" Canvas.Top="66.68" Width="15" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="#FF135077" StrokeThickness="0">
+                            <Ellipse.RenderTransform>
+                                <CompositeTransform Rotation="-30.854" SkewX="0" SkewY="-7.548" ScaleX="1.001" ScaleY="0.999" TranslateX="0.835" TranslateY="-0.637"/>
+                            </Ellipse.RenderTransform>
+                        </Ellipse>
+                        <Ellipse x:Name="Ellipse_Ojo_Izquierdo_AzulClaro3" Height="6" Canvas.Left="46.5" Stroke="Black" Canvas.Top="81.914" Width="8" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="#FF135077" StrokeThickness="0">
+                            <Ellipse.RenderTransform>
+                                <CompositeTransform Rotation="-24.242" SkewY="-1.731" ScaleX="1.007" ScaleY="0.993"/>
+                            </Ellipse.RenderTransform>
+                        </Ellipse>
+                    </Canvas>
+                    <Canvas x:Name="LineadoCabeza" Height="291" Width="272">
+                        <Path x:Name="CabezaLinea1" Data="M190.6,199.6 L330.1,199.6" Fill="#FFF4F4F5" Height="1" Canvas.Left="56.35" Stroke="Black" Stretch="Fill" Canvas.Top="183.475" UseLayoutRounding="False" Width="114"/>
+                        <Path x:Name="CabezaLinea2" Data="M250.35,168.35 L250.35,230.1" Fill="#FFF4F4F5" Height="63" Canvas.Left="107.1" Stroke="Black" Stretch="Fill" Canvas.Top="121.85" UseLayoutRounding="False" Width="1"/>
+                        <Path x:Name="CabezaLinea3" Data="M181.35,168.35 L349.85,168.35" Fill="#FFF4F4F5" Height="1" Canvas.Left="37.975" Stroke="Black" Stretch="Fill" Canvas.Top="121.85" UseLayoutRounding="False" Width="170"/>
+                        <Path x:Name="CabezaLinea4" Data="M217.1,168.6 L217.1,102.6" Fill="#FFF4F4F5" Height="67" Canvas.Left="73.85" Stroke="Black" Stretch="Fill" Canvas.Top="56.1" UseLayoutRounding="False" Width="1"/>
+                        <Path x:Name="CabezaLinea5" Data="M316,168.35001 L316,88.85" Fill="#FFF4F4F5" Height="80" Canvas.Left="172.75" Stroke="Black" Stretch="Fill" Canvas.Top="41.975" UseLayoutRounding="False" Width="1"/>
+                    </Canvas>
                 </Canvas>
             </Canvas>
         </Grid>
