@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid x:Name="Grid_Principal1">
+    <Grid x:Name="Grid_Principal">
 
         <Image x:Name="imagenFondo" Stretch="None" Source="/Assets/fondo-desierto.png" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Image.FocusVisualPrimaryBrush>
@@ -16,7 +16,7 @@
             </Image.FocusVisualPrimaryBrush>
         </Image>
 
-        <Grid x:Name="Grid_Principal2">
+        <Grid x:Name="Grid_HUD">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition Width="13*"/>
@@ -54,8 +54,10 @@
                 </Image.FocusVisualSecondaryBrush>
             </Image>
             <TextBlock x:Name="TextBlock_NombrePokemon" TextWrapping="Wrap" Text="Sandshrew" TextAlignment="Center" FontFamily="Segoe UI" FontSize="16" FontWeight="Bold" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            <Grid x:Name="Grid_HUD"/>
-            <Canvas x:Name="Pokemon_Sandshrew" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="2" Width="632" Height="679">
+            <Canvas x:Name="Pokemon_Sandshrew" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="2" Width="632" Height="679" RenderTransformOrigin="0.5,0.5">
+                <Canvas.RenderTransform>
+                    <CompositeTransform ScaleX="0.5" ScaleY="0.5"/>
+                </Canvas.RenderTransform>
                 <Canvas.Background>
                     <ImageBrush/>
                 </Canvas.Background>
