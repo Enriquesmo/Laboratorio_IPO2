@@ -28,34 +28,33 @@
                 <RowDefinition Height="7*"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Grid x:Name="Grid_HUD">
-                <ProgressBar x:Name="ProgressBar_Vida" Margin="110,10,-1290,11" VerticalAlignment="Stretch" Background="#4CF40000" Value="60"/>
-                <ProgressBar x:Name="ProgressBar_Escudo" Margin="110,110,-1290,-89" VerticalAlignment="Stretch" Foreground="#FFFCFF00" Background="#4CFCFF00" Value="80"/>
-                <Image x:Name="Image_Vida" Source="/Assets/ImagenVida.png">
-                    <Image.FocusVisualPrimaryBrush>
-                        <ImageBrush Stretch="Uniform" ImageSource="/Assets/ImagenVida.png"/>
-                    </Image.FocusVisualPrimaryBrush>
-                </Image>
-                <Image x:Name="Image_Escudo" Source="/Assets/ImagenEscudo.png" Margin="0,100,0,-100">
-                    <Image.FocusVisualPrimaryBrush>
-                        <ImageBrush Stretch="Uniform" ImageSource="/Assets/ImagenEscudo.png"/>
-                    </Image.FocusVisualPrimaryBrush>
-                </Image>
-                <Image x:Name="Image_Pocion_De_Vida" PointerReleased="Image_Pocion_De_Vida_PointerReleased" Source="/Assets/Pocion de vida.png" Margin="1400,0,-1400,0">
-                    <Image.FocusVisualPrimaryBrush>
-                        <ImageBrush Stretch="Uniform" ImageSource="/Assets/Pocion de vida.png"/>
-                    </Image.FocusVisualPrimaryBrush>
-                </Image>
-                <Image x:Name="Image_Pocion_De_Escudo" Source="/Assets/Pocion de escudo.png" Margin="1400,100,-1400,-100">
-                    <Image.FocusVisualPrimaryBrush>
-                        <ImageBrush Stretch="Uniform" ImageSource="/Assets/Pocion de escudo.png"/>
-                    </Image.FocusVisualPrimaryBrush>
-                    <Image.FocusVisualSecondaryBrush>
-                        <ImageBrush/>
-                    </Image.FocusVisualSecondaryBrush>
-                </Image>
-                <TextBlock x:Name="TextBlock_NombrePokemon" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Sandshrew" VerticalAlignment="Top" TextAlignment="Center" FontFamily="Segoe UI" FontSize="30" FontWeight="Bold" Margin="674,930,0,0"/>
-            </Grid>
+            <ProgressBar x:Name="ProgressBar_Vida" Margin="10,10,10,11" VerticalAlignment="Stretch" Background="#4CF40000" Value="60" Grid.Column="1"/>
+            <ProgressBar x:Name="ProgressBar_Escudo" Margin="10,10,10,11" VerticalAlignment="Stretch" Foreground="#FFFCFF00" Background="#4CFCFF00" Value="80" Grid.Column="1" Grid.Row="1"/>
+            <Image x:Name="Image_Vida" Source="/Assets/ImagenVida.png">
+                <Image.FocusVisualPrimaryBrush>
+                    <ImageBrush Stretch="Uniform" ImageSource="/Assets/ImagenVida.png"/>
+                </Image.FocusVisualPrimaryBrush>
+            </Image>
+            <Image x:Name="Image_Escudo" Source="/Assets/ImagenEscudo.png" Grid.Row="1">
+                <Image.FocusVisualPrimaryBrush>
+                    <ImageBrush Stretch="Uniform" ImageSource="/Assets/ImagenEscudo.png"/>
+                </Image.FocusVisualPrimaryBrush>
+            </Image>
+            <Image x:Name="Image_Pocion_De_Vida" PointerReleased="Image_Pocion_De_Vida_PointerReleased" Source="/Assets/Pocion de vida.png" Grid.Column="2">
+                <Image.FocusVisualPrimaryBrush>
+                    <ImageBrush Stretch="Uniform" ImageSource="/Assets/Pocion de vida.png"/>
+                </Image.FocusVisualPrimaryBrush>
+            </Image>
+            <Image x:Name="Image_Pocion_De_Escudo" Source="/Assets/Pocion de escudo.png" Grid.Column="2" Grid.Row="1">
+                <Image.FocusVisualPrimaryBrush>
+                    <ImageBrush Stretch="Uniform" ImageSource="/Assets/Pocion de escudo.png"/>
+                </Image.FocusVisualPrimaryBrush>
+                <Image.FocusVisualSecondaryBrush>
+                    <ImageBrush/>
+                </Image.FocusVisualSecondaryBrush>
+            </Image>
+            <TextBlock x:Name="TextBlock_NombrePokemon" TextWrapping="Wrap" Text="Sandshrew" TextAlignment="Center" FontFamily="Segoe UI" FontSize="16" FontWeight="Bold" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Grid x:Name="Grid_HUD"/>
             <Canvas x:Name="Pokemon_Sandshrew" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="2" Width="632" Height="679">
                 <Canvas.Background>
                     <ImageBrush/>
