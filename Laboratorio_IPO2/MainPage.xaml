@@ -7,6 +7,44 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <Storyboard x:Name="ManitaDerecha">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Brazo_Izquierdo" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="100.762">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <CubicEase EasingMode="EaseIn"/>
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="16.252">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <CubicEase EasingMode="EaseIn"/>
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Brazo_Derecho" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-148.386">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <CubicEase EasingMode="EaseIn"/>
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-4.389">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <CubicEase EasingMode="EaseIn"/>
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Salto">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Pokemon_Sandshrew" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-138"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-444"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Pokemon_Sandshrew" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-130.5"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-31.5"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Page.Resources>
 
     <Grid x:Name="Grid_Principal">
 
@@ -61,7 +99,7 @@
                 <Canvas.Background>
                     <ImageBrush/>
                 </Canvas.Background>
-                <Canvas x:Name="Cola" Height="201" Width="233" Canvas.Top="356" Canvas.Left="411">
+                <Canvas x:Name="Cola" Height="201" Width="233" Canvas.Top="356" Canvas.Left="411" RenderTransformOrigin="0.203,0.67">
                     <Path x:Name="Path_Cola_Clara" Canvas.Left="-102.145" Stroke="Black" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M113.05824,0.5 L113.84593,1.230886 C135.11832,20.659815 161.55981,38.684967 191.82016,53.414551 C247.80179,80.66428 304.59772,90.669292 347.50656,84.090237 L348.51999,83.922787 L348.4227,83.999149 C319.86871,105.68713 256.31631,120.77812 182.5,120.77812 C81.984177,120.77812 0.5,92.795918 0.5,58.278118 C0.5,32.389771 46.33485,10.177694 111.65739,0.68967628 z" Height="121" RenderTransformOrigin="0.522892687366542,0.48053283667687" Stretch="Fill" Canvas.Top="29.786" Width="349" Fill="#FFE8C978">
                         <Path.RenderTransform>
                             <CompositeTransform Rotation="-37.411" SkewX="0" SkewY="-1.106" ScaleX="1" ScaleY="1" TranslateX="-2.141" TranslateY="-2.8"/>
@@ -80,7 +118,7 @@
                     <Path x:Name="ColaLinea5" Data="M549.93333,457.93333 L603.6,402.6" Fill="#FFF4F4F5" Height="58" Canvas.Left="134.332" Stroke="Black" Stretch="Fill" Canvas.Top="51.75" UseLayoutRounding="False" Width="55" RenderTransformOrigin="0.5,0.5"/>
                     <Path x:Name="ColaLinea6" Data="M483.1,450.35 L531.35,429.35001" Fill="#FFF4F4F5" Height="22" Canvas.Left="67.5" Stroke="Black" Stretch="Fill" Canvas.Top="78.5" UseLayoutRounding="False" Width="49"/>
                 </Canvas>
-                <Canvas x:Name="Pierna_Izquierda" Height="194" Width="244" Canvas.Left="72" Canvas.Top="420">
+                <Canvas x:Name="Pierna_Izquierda" Height="194" Width="244" Canvas.Left="72" Canvas.Top="420" RenderTransformOrigin="0.681,0.178">
                     <Ellipse x:Name="Ellipse_Pie_Izquierdo" Height="124" Canvas.Left="90.538" Stroke="Black" Canvas.Top="66.751" Width="61" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="#FF9C8C66">
                         <Ellipse.RenderTransform>
                             <CompositeTransform Rotation="80.899"/>
@@ -133,7 +171,10 @@
                     <Path x:Name="CuerpoLinea6" Data="M432.1,367.1 L475.6,355.5" Fill="#FFF4F4F5" Height="13" Canvas.Left="285.1" Stroke="Black" Stretch="Fill" Canvas.Top="180.5" UseLayoutRounding="False" Width="44"/>
                     <Path x:Name="CuerpoLinea7" Data="M426.1,381.35 L434.603,420.43399" Fill="#FFF4F4F5" Height="42" Canvas.Left="278.725" Stroke="Black" Stretch="Fill" Canvas.Top="205.225" UseLayoutRounding="False" Width="10"/>
                 </Canvas>
-                <Canvas x:Name="Brazo_Izquierdo" Height="210" Width="171" Canvas.Left="98" Canvas.Top="247">
+                <Canvas x:Name="Brazo_Izquierdo" Height="210" Width="171" Canvas.Left="98" Canvas.Top="247" RenderTransformOrigin="0.609,0.246">
+                    <Canvas.RenderTransform>
+                        <CompositeTransform/>
+                    </Canvas.RenderTransform>
                     <Path x:Name="Path_Brazo_Izquierdo_Tocho" Data="M49.207098,0.5 L50.009451,0.86905384 C80.372618,15.302938 101.5,47.428336 101.5,84.742072 C101.5,122.05581 80.372618,154.1812 50.009451,168.61509 L49.207098,168.98414 L48.459765,168.61509 C20.178646,154.1812 0.49999827,122.05581 0.5,84.742072 C0.49999827,47.428336 20.178646,15.302938 48.459765,0.86905384 z" Height="167" Canvas.Left="41.401" Stroke="Black" Stretch="Fill" Canvas.Top="6.057" UseLayoutRounding="False" Width="97" RenderTransformOrigin="0.5,0.5" Fill="#FFEDCE7B">
                         <Path.RenderTransform>
                             <CompositeTransform Rotation="8.732" SkewY="0.706" ScaleX="1.001" ScaleY="0.999"/>
@@ -160,7 +201,10 @@
                     <Path x:Name="Brazo_IzquierdoLinea1" Data="M166.6,307.93301 L171.6,364.10001" Fill="#FFF4F4F5" Height="57" Canvas.Left="66.625" Stroke="Black" Stretch="Fill" Canvas.Top="50.434" UseLayoutRounding="False" Width="6"/>
                     <Path x:Name="Brazo_IzquierdoLinea2" Data="M145.1,325.6 L218.646,302.6" Fill="#FFF4F4F5" Height="9" Canvas.Left="50.5" Stroke="Black" Stretch="Fill" Canvas.Top="44.6" UseLayoutRounding="False" Width="70"/>
                 </Canvas>
-                <Canvas x:Name="Brazo_Derecho" Height="189" Width="174" Canvas.Left="274" Canvas.Top="247">
+                <Canvas x:Name="Brazo_Derecho" Height="189" Width="174" Canvas.Left="274" Canvas.Top="247" RenderTransformOrigin="0.668,0.485">
+                    <Canvas.RenderTransform>
+                        <CompositeTransform/>
+                    </Canvas.RenderTransform>
                     <Path x:Name="Path_Brazo_Derecho_Codo_Lineado" Data="M63.336143,0.5 L63.016502,0.74110413 C47.118477,12.449997 25.943832,19.921356 2.5290527,20.809525 L0.5,20.867218 L0.7096405,20.781998 L0.96265411,20.7733 C9.9434052,20.260178 19.181274,17.277191 27.518867,11.6754 C30.992867,9.3413239 34.105019,6.6906891 36.833656,3.8051147 L37.807243,2.7287598 L38.820335,2.9693756 C41.578194,3.5800171 44.417641,3.8986969 47.317131,3.8986969 C52.701912,3.8986969 57.879585,2.7995758 62.712135,0.77244568 z" Height="21" Canvas.Left="63.498" Stroke="Black" Stretch="Fill" Canvas.Top="156.248" UseLayoutRounding="False" Width="64" Fill="#FFB59C67" />
                     <Ellipse x:Name="Ellipse_Brazo_Derecho_Antebrazo_Lineado" Height="120" Canvas.Left="63" Stroke="Black" Canvas.Top="41" Width="94"/>
                     <Ellipse x:Name="Ellipse_Brazo_Derecho_Antebrazo_Clara" Height="120" Canvas.Left="63" Stroke="Black" Canvas.Top="41" Width="94" Fill="#FFE8C979"/>
@@ -201,7 +245,7 @@
                     <Path x:Name="Brazo_DerechoLinea2" Data="M311.93333,350.93333 L352.603,420.43399" Fill="#FFF4F4F5" Height="69" Canvas.Left="32.666" Stroke="Black" Stretch="Fill" Canvas.Top="106.832" UseLayoutRounding="False" Width="44"/>
                     <Path x:Name="Brazo_DerechoLinea3" Data="M327.1,374.1 L374.76599,337.26667" Fill="#FFF4F4F5" Height="38" Canvas.Left="48.5" Stroke="Black" Stretch="Fill" Canvas.Top="94.5" UseLayoutRounding="False" Width="49"/>
                 </Canvas>
-                <Canvas x:Name="Pierna_Derecha" Height="249" Width="207" Canvas.Left="274" Canvas.Top="420">
+                <Canvas x:Name="Pierna_Derecha" Height="249" Width="207" Canvas.Left="274" Canvas.Top="420" RenderTransformOrigin="0.6,0.3" PointerReleased="Pierna_Derecha_PointerReleased">
                     <Ellipse x:Name="Ellipse_Pie_Derecho" Height="103" Canvas.Left="78.567" Stroke="Black" Canvas.Top="128.567" Width="85" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="#FF9C8C66">
                         <Ellipse.RenderTransform>
                             <CompositeTransform Rotation="-7.442"/>
@@ -234,7 +278,7 @@
                     <Path x:Name="Pierna_DerechaLinea3" Data="M421.1,475.35 L425.43301,539.35" Fill="#FFF4F4F5" Height="65" Canvas.Left="142.167" Stroke="Black" Stretch="Fill" Canvas.Top="60.917" UseLayoutRounding="False" Width="5"/>
                     <Path x:Name="Pierna_DerechaLinea4" Data="M319.93333,546.26667 L459.93333,536.93333" Fill="#FFF4F4F5" Height="10" Canvas.Left="41" Stroke="Black" Stretch="Fill" Canvas.Top="122.5" UseLayoutRounding="False" Width="141"/>
                 </Canvas>
-                <Canvas x:Name="Cabeza" Height="291" Width="272" Canvas.Left="142" Canvas.Top="51">
+                <Canvas x:Name="Cabeza" Height="291" Width="272" Canvas.Left="142" Canvas.Top="51" RenderTransformOrigin="0.618,0.768">
                     <Canvas x:Name="Oreja_Derecha" Height="123" Width="99" Canvas.Left="173">
                         <Path x:Name="Path_Oreja_Derecha_Fondo" Canvas.Left="-8.124" Stroke="Black" Width="86" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M79.933381,0.50213623 L80.979897,0.51875305 L81.309037,2.2486305 C83.994866,16.806587 85.5,33.130081 85.5,50.371719 C85.5,54.203194 85.425675,57.989326 85.280579,61.720825 L85.055787,66.341057 L84.310715,66.952667 C70.09385,78.473419 51.773152,89.770157 30.856997,99.309692 C23.884945,102.48953 16.954533,105.32362 10.145261,107.80698 L6.8979835,108.9548 L6.6528682,107.92926 C2.7484142,91.146393 0.50000045,71.444839 0.5,50.371719 C0.50000045,40.79303 0.96454874,31.497719 1.8380134,22.631088 L2.2269041,19.054298 L6.0020079,17.463562 C33.644158,6.1321945 59.984063,0.37268448 79.933381,0.50213623 z" Height="109" RenderTransformOrigin="0.50000000259904,0.460205653520102" Stretch="Fill" Canvas.Top="28.128" Fill="#FFE7C979">
                             <Path.RenderTransform>
@@ -316,10 +360,17 @@
                                 <CompositeTransform Rotation="-149.45" SkewX="-20.426" SkewY="-9.689" ScaleX="0.986" ScaleY="1.083" TranslateX="8.038" TranslateY="4.013"/>
                             </Path.RenderTransform>
                         </Path>
-                        <Ellipse x:Name="Ellipse_Ojo_Derecho_Blanco" Height="44" Canvas.Left="27.514" Stroke="Black" Canvas.Top="8.785" Width="25" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="White">
+                        <Ellipse x:Name="Ellipse_Ojo_Derecho_Blanco" Height="44" Canvas.Left="27.514" Stroke="Black" Canvas.Top="8.785" Width="25" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="White" PointerReleased="enfadarPupila">
                             <Ellipse.RenderTransform>
                                 <CompositeTransform Rotation="22.445" SkewX="-9.418" TranslateX="-2.754" TranslateY="-1.137"/>
                             </Ellipse.RenderTransform>
+
+                            <Ellipse.Resources>
+                                <Storyboard x:Name="animarPupilaDerecha" x:Key="animarPupilaDerechaKey">
+                                    <ColorAnimation BeginTime="00:00:00" Duration="00:00:02" AutoReverse="True" From="White" To="Red" Storyboard.TargetName="Ellipse_Ojo_Derecho_Blanco" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)"/>
+                                </Storyboard>
+                            </Ellipse.Resources>
+
                         </Ellipse>
                     </Canvas>
                     <Canvas x:Name="Ojo_Izquierdo" Height="99" Width="69" Canvas.Top="109">
@@ -359,5 +410,7 @@
                 </Canvas>
             </Canvas>
         </Grid>
+        <Button Content="Haz cosas puto
+       " Margin="0,803,0,0" VerticalAlignment="Top" Height="50" Width="99" HorizontalAlignment="Center" Click="Button_Click"/>
     </Grid>
 </Page>

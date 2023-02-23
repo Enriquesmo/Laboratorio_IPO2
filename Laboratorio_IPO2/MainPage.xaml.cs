@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0xc0a
@@ -31,6 +32,7 @@ namespace Laboratorio_IPO2
         {
             this.InitializeComponent();
             dtTime = new DispatcherTimer();
+
         }
         /************************************************************************************************/
 
@@ -58,6 +60,47 @@ namespace Laboratorio_IPO2
                 this.dtTime.Stop();
                 this.Image_Pocion_De_Vida.Opacity = 1;
            }
+        }
+
+        private void enfadarPupila(object sender, PointerRoutedEventArgs e)
+        {
+            Storyboard sb = (Storyboard)this.Ellipse_Ojo_Derecho_Blanco.Resources["animarPupilaDerechaKey"];
+            sb.Begin();
+
+        }
+
+        private void Pierna_Derecha_PointerReleased(object sender, PointerRoutedEventArgs e)
+        {
+            {
+                DoubleAnimation da = new DoubleAnimation();
+                Storyboard sb = new Storyboard();
+                sb.Duration = new Duration(TimeSpan.FromMilliseconds(300));
+                sb.Children.Add(da);
+                sb.BeginTime = TimeSpan.FromSeconds(0);
+                Cola.RenderTransform = (Transform)new ScaleTransform();
+                Storyboard.SetTarget(da, Cola.RenderTransform);
+                Storyboard.SetTargetProperty(da, "ScaleY");
+                da.From = 1;
+                da.To = 1.5;
+                sb.AutoReverse = true;
+                sb.RepeatBehavior = new RepeatBehavior(3);
+                sb.Begin();
+            }
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Storyboard sb = (Storyboard)this.Resources["ManitaDerecha"];
+            sb.AutoReverse = true;
+            sb.RepeatBehavior = RepeatBehavior.Forever;
+            sb.Begin();
+
+            Storyboard sb2 = (Storyboard)this.Resources["Salto"];
+            sb2.AutoReverse = true;
+            sb2.RepeatBehavior = RepeatBehavior.Forever;
+            sb2.Begin();
+            //ManitaDerecha.Begin();
         }
     }
 }
