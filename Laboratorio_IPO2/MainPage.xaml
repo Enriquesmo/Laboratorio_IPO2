@@ -110,13 +110,14 @@
                             <CompositeTransform Rotation="-37.411" SkewY="-1.127" TranslateX="-2.169" TranslateY="-2.837"/>
                         </Path.RenderTransform>
                     </Path>
-                    <Canvas x:Name="Lineado_Cola" Height="201" Width="233"/>
-                    <Path x:Name="ColaLinea1" Data="M480.1,429.85 L490.85,514.85" Fill="#FFF4F4F5" Height="86" Canvas.Left="64.5" Stroke="Black" Stretch="Fill" Canvas.Top="78.5" UseLayoutRounding="False" Width="12"/>
-                    <Path x:Name="ColaLinea2" Data="M462.10001,503.1 L488.35,494.85" Fill="#FFF4F4F5" Height="9" Canvas.Left="48.5" Stroke="Black" Stretch="Fill" Canvas.Top="144" UseLayoutRounding="False" Width="25"/>
-                    <Path x:Name="ColaLinea3" Data="M524.85,418.6 L553.6,466.1" Fill="#FFF4F4F5" Height="48" Canvas.Left="109.25" Stroke="Black" Stretch="Fill" Canvas.Top="67.75" UseLayoutRounding="False" Width="30"/>
-                    <Path x:Name="ColaLinea4" Data="M588.6,392.26667 L608.93333,407.26667" Fill="#FFF4F4F5" Height="16" Canvas.Left="172.75" Stroke="Black" Stretch="Fill" Canvas.Top="40.917" UseLayoutRounding="False" Width="22"/>
-                    <Path x:Name="ColaLinea5" Data="M549.93333,457.93333 L603.6,402.6" Fill="#FFF4F4F5" Height="58" Canvas.Left="134.332" Stroke="Black" Stretch="Fill" Canvas.Top="51.75" UseLayoutRounding="False" Width="55" RenderTransformOrigin="0.5,0.5"/>
-                    <Path x:Name="ColaLinea6" Data="M483.1,450.35 L531.35,429.35001" Fill="#FFF4F4F5" Height="22" Canvas.Left="67.5" Stroke="Black" Stretch="Fill" Canvas.Top="78.5" UseLayoutRounding="False" Width="49"/>
+                    <Canvas x:Name="Lineado_Cola" Height="201" Width="233">
+                        <Path x:Name="ColaLinea1" Data="M480.1,429.85 L490.85,514.85" Fill="#FFF4F4F5" Height="86" Canvas.Left="64.5" Stroke="Black" Stretch="Fill" Canvas.Top="78.5" UseLayoutRounding="False" Width="12"/>
+                        <Path x:Name="ColaLinea2" Data="M462.10001,503.1 L488.35,494.85" Fill="#FFF4F4F5" Height="9" Canvas.Left="48.5" Stroke="Black" Stretch="Fill" Canvas.Top="144" UseLayoutRounding="False" Width="25"/>
+                        <Path x:Name="ColaLinea3" Data="M524.85,418.6 L553.6,466.1" Fill="#FFF4F4F5" Height="48" Canvas.Left="109.25" Stroke="Black" Stretch="Fill" Canvas.Top="67.75" UseLayoutRounding="False" Width="30"/>
+                        <Path x:Name="ColaLinea4" Data="M588.6,392.26667 L608.93333,407.26667" Fill="#FFF4F4F5" Height="16" Canvas.Left="172.75" Stroke="Black" Stretch="Fill" Canvas.Top="40.917" UseLayoutRounding="False" Width="22"/>
+                        <Path x:Name="ColaLinea5" Data="M549.93333,457.93333 L603.6,402.6" Fill="#FFF4F4F5" Height="58" Canvas.Left="134.332" Stroke="Black" Stretch="Fill" Canvas.Top="51.75" UseLayoutRounding="False" Width="55" RenderTransformOrigin="0.5,0.5"/>
+                        <Path x:Name="ColaLinea6" Data="M483.1,450.35 L531.35,429.35001" Fill="#FFF4F4F5" Height="22" Canvas.Left="67.5" Stroke="Black" Stretch="Fill" Canvas.Top="78.5" UseLayoutRounding="False" Width="49"/>
+                    </Canvas>
                 </Canvas>
                 <Canvas x:Name="Pierna_Izquierda" Height="194" Width="244" Canvas.Left="72" Canvas.Top="420" RenderTransformOrigin="0.681,0.178">
                     <Ellipse x:Name="Ellipse_Pie_Izquierdo" Height="124" Canvas.Left="90.538" Stroke="Black" Canvas.Top="66.751" Width="61" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="#FF9C8C66">
@@ -145,10 +146,11 @@
                             <CompositeTransform Rotation="67.102"/>
                         </Path.RenderTransform>
                     </Path>
-                    <Canvas x:Name="Lineado_Pierna_Izquierda" Height="194" Width="244"/>
-                    <Path x:Name="Pierna_IzquierdaLinea1" Data="M147.1,482.60001 L212.1,482.60001" Fill="#FFF4F4F5" Height="1" Canvas.Left="67.5" Stroke="Black" Stretch="Fill" Canvas.Top="43.25" UseLayoutRounding="False" Width="66"/>
-                    <Path x:Name="Pierna_IzquierdaLinea2" Data="M166.60001,483.10001 L166.85,535.1" Fill="#FFF4F4F5" Height="53" Canvas.Left="87" Stroke="Black" Stretch="Fill" Canvas.Top="43.75" UseLayoutRounding="False" Width="1"/>
-                    <Path x:Name="Pierna_IzquierdaLinea3" Data="M151.1,534.85 L251.35,534.35" Fill="#FFF4F4F5" Height="2" Canvas.Left="71.5" Stroke="Black" Stretch="Fill" Canvas.Top="95" UseLayoutRounding="False" Width="101"/>
+                    <Canvas x:Name="Lineado_Pierna_Izquierda" Height="194" Width="244">
+                        <Path x:Name="Pierna_IzquierdaLinea1" Data="M147.1,482.60001 L212.1,482.60001" Fill="#FFF4F4F5" Height="1" Canvas.Left="67.5" Stroke="Black" Stretch="Fill" Canvas.Top="43.25" UseLayoutRounding="False" Width="66"/>
+                        <Path x:Name="Pierna_IzquierdaLinea2" Data="M166.60001,483.10001 L166.85,535.1" Fill="#FFF4F4F5" Height="53" Canvas.Left="87" Stroke="Black" Stretch="Fill" Canvas.Top="43.75" UseLayoutRounding="False" Width="1"/>
+                        <Path x:Name="Pierna_IzquierdaLinea3" Data="M151.1,534.85 L251.35,534.35" Fill="#FFF4F4F5" Height="2" Canvas.Left="71.5" Stroke="Black" Stretch="Fill" Canvas.Top="95" UseLayoutRounding="False" Width="101"/>
+                    </Canvas>
                 </Canvas>
                 <Canvas x:Name="Cuerpo" Height="391" Width="339" Canvas.Left="142" Canvas.Top="181">
                     <Ellipse x:Name="Ellipse_Espalda" Height="382" Canvas.Left="36" Stroke="Black" Width="294" Fill="#FFB79E67"/>
@@ -162,14 +164,15 @@
                             <CompositeTransform Rotation="-9.723"/>
                         </Path.RenderTransform>
                     </Path>
-                    <Canvas x:Name="Lineado_Cuerpo" Height="391" Width="339"/>
-                    <Path x:Name="CuerpoLinea1" Data="M390.1,285.35 L415.6,211.85" Fill="#FFF4F4F5" Height="75" Canvas.Left="243.1" Stroke="Black" Stretch="Fill" Canvas.Top="36.183" UseLayoutRounding="False" Width="26"/>
-                    <Path x:Name="CuerpoLinea2" Data="M425.1,307.26667 L461.1,281.93333" Fill="#FFF4F4F5" Height="26" Canvas.Left="278.1" Stroke="Black" Stretch="Fill" Canvas.Top="106.933" UseLayoutRounding="False" Width="37"/>
-                    <Path x:Name="CuerpoLinea3" Data="M403.93333,246.93333 L447.1,291.6" Fill="#FFF4F4F5" Height="47" Canvas.Left="256.433" Stroke="Black" Stretch="Fill" Canvas.Top="71.1" UseLayoutRounding="False" Width="44"/>
-                    <Path x:Name="CuerpoLinea4" Data="M437.43333,298.10001 L447.43301,361.6" Fill="#FFF4F4F5" Height="66" Canvas.Left="290.433" Stroke="Black" Stretch="Fill" Canvas.Top="123.1" UseLayoutRounding="False" Width="13"/>
-                    <Path x:Name="CuerpoLinea5" Data="M422.1,426.85 L472.1,405.6" Fill="#FFF4F4F5" Height="22" Canvas.Left="275.1" Stroke="Black" Stretch="Fill" Canvas.Top="230.35" UseLayoutRounding="False" Width="52"/>
-                    <Path x:Name="CuerpoLinea6" Data="M432.1,367.1 L475.6,355.5" Fill="#FFF4F4F5" Height="13" Canvas.Left="285.1" Stroke="Black" Stretch="Fill" Canvas.Top="180.5" UseLayoutRounding="False" Width="44"/>
-                    <Path x:Name="CuerpoLinea7" Data="M426.1,381.35 L434.603,420.43399" Fill="#FFF4F4F5" Height="42" Canvas.Left="278.725" Stroke="Black" Stretch="Fill" Canvas.Top="205.225" UseLayoutRounding="False" Width="10"/>
+                    <Canvas x:Name="Lineado_Cuerpo" Height="391" Width="339">
+                        <Path x:Name="CuerpoLinea1" Data="M390.1,285.35 L415.6,211.85" Fill="#FFF4F4F5" Height="75" Canvas.Left="243.1" Stroke="Black" Stretch="Fill" Canvas.Top="36.183" UseLayoutRounding="False" Width="26"/>
+                        <Path x:Name="CuerpoLinea2" Data="M425.1,307.26667 L461.1,281.93333" Fill="#FFF4F4F5" Height="26" Canvas.Left="278.1" Stroke="Black" Stretch="Fill" Canvas.Top="106.933" UseLayoutRounding="False" Width="37"/>
+                        <Path x:Name="CuerpoLinea3" Data="M403.93333,246.93333 L447.1,291.6" Fill="#FFF4F4F5" Height="47" Canvas.Left="256.433" Stroke="Black" Stretch="Fill" Canvas.Top="71.1" UseLayoutRounding="False" Width="44"/>
+                        <Path x:Name="CuerpoLinea4" Data="M437.43333,298.10001 L447.43301,361.6" Fill="#FFF4F4F5" Height="66" Canvas.Left="290.433" Stroke="Black" Stretch="Fill" Canvas.Top="123.1" UseLayoutRounding="False" Width="13"/>
+                        <Path x:Name="CuerpoLinea5" Data="M422.1,426.85 L472.1,405.6" Fill="#FFF4F4F5" Height="22" Canvas.Left="275.1" Stroke="Black" Stretch="Fill" Canvas.Top="230.35" UseLayoutRounding="False" Width="52"/>
+                        <Path x:Name="CuerpoLinea6" Data="M432.1,367.1 L475.6,355.5" Fill="#FFF4F4F5" Height="13" Canvas.Left="285.1" Stroke="Black" Stretch="Fill" Canvas.Top="180.5" UseLayoutRounding="False" Width="44"/>
+                        <Path x:Name="CuerpoLinea7" Data="M426.1,381.35 L434.603,420.43399" Fill="#FFF4F4F5" Height="42" Canvas.Left="278.725" Stroke="Black" Stretch="Fill" Canvas.Top="205.225" UseLayoutRounding="False" Width="10"/>
+                    </Canvas>
                 </Canvas>
                 <Canvas x:Name="Brazo_Izquierdo" Height="210" Width="171" Canvas.Left="98" Canvas.Top="247" RenderTransformOrigin="0.609,0.246">
                     <Canvas.RenderTransform>
@@ -197,9 +200,10 @@
                             <CompositeTransform Rotation="9.053" SkewY="0.731" ScaleX="1.001" ScaleY="0.999"/>
                         </Path.RenderTransform>
                     </Path>
-                    <Canvas x:Name="Lineado_Brazo_Izquierdo" Height="210" Width="171"/>
-                    <Path x:Name="Brazo_IzquierdoLinea1" Data="M166.6,307.93301 L171.6,364.10001" Fill="#FFF4F4F5" Height="57" Canvas.Left="66.625" Stroke="Black" Stretch="Fill" Canvas.Top="50.434" UseLayoutRounding="False" Width="6"/>
-                    <Path x:Name="Brazo_IzquierdoLinea2" Data="M145.1,325.6 L218.646,302.6" Fill="#FFF4F4F5" Height="9" Canvas.Left="50.5" Stroke="Black" Stretch="Fill" Canvas.Top="44.6" UseLayoutRounding="False" Width="70"/>
+                    <Canvas x:Name="Lineado_Brazo_Izquierdo" Height="210" Width="171">
+                        <Path x:Name="Brazo_IzquierdoLinea1" Data="M166.6,307.93301 L171.6,364.10001" Fill="#FFF4F4F5" Height="57" Canvas.Left="66.625" Stroke="Black" Stretch="Fill" Canvas.Top="50.434" UseLayoutRounding="False" Width="6"/>
+                        <Path x:Name="Brazo_IzquierdoLinea2" Data="M145.1,325.6 L218.646,302.6" Fill="#FFF4F4F5" Height="9" Canvas.Left="50.5" Stroke="Black" Stretch="Fill" Canvas.Top="44.6" UseLayoutRounding="False" Width="70"/>
+                    </Canvas>
                 </Canvas>
                 <Canvas x:Name="Brazo_Derecho" Height="189" Width="174" Canvas.Left="274" Canvas.Top="247" RenderTransformOrigin="0.668,0.485">
                     <Canvas.RenderTransform>
@@ -240,12 +244,13 @@
                             <CompositeTransform Rotation="166.326"/>
                         </Path.RenderTransform>
                     </Path>
-                    <Canvas x:Name="Lineado_Brazo_Derecho" Height="189" Width="174"/>
-                    <Path x:Name="Brazo_DerechoLinea1" Data="M391.76667,358.76667 L422.1,303.76667" Fill="#FFF4F4F5" Height="57" Canvas.Left="112.499" Stroke="Black" Stretch="Fill" Canvas.Top="59.331" UseLayoutRounding="False" Width="31"/>
-                    <Path x:Name="Brazo_DerechoLinea2" Data="M311.93333,350.93333 L352.603,420.43399" Fill="#FFF4F4F5" Height="69" Canvas.Left="32.666" Stroke="Black" Stretch="Fill" Canvas.Top="106.832" UseLayoutRounding="False" Width="44"/>
-                    <Path x:Name="Brazo_DerechoLinea3" Data="M327.1,374.1 L374.76599,337.26667" Fill="#FFF4F4F5" Height="38" Canvas.Left="48.5" Stroke="Black" Stretch="Fill" Canvas.Top="94.5" UseLayoutRounding="False" Width="49"/>
+                    <Canvas x:Name="Lineado_Brazo_Derecho" Height="189" Width="174">
+                        <Path x:Name="Brazo_DerechoLinea1" Data="M391.76667,358.76667 L422.1,303.76667" Fill="#FFF4F4F5" Height="57" Canvas.Left="112.499" Stroke="Black" Stretch="Fill" Canvas.Top="59.331" UseLayoutRounding="False" Width="31"/>
+                        <Path x:Name="Brazo_DerechoLinea2" Data="M311.93333,350.93333 L352.603,420.43399" Fill="#FFF4F4F5" Height="69" Canvas.Left="32.666" Stroke="Black" Stretch="Fill" Canvas.Top="106.832" UseLayoutRounding="False" Width="44"/>
+                        <Path x:Name="Brazo_DerechoLinea3" Data="M327.1,374.1 L374.76599,337.26667" Fill="#FFF4F4F5" Height="38" Canvas.Left="48.5" Stroke="Black" Stretch="Fill" Canvas.Top="94.5" UseLayoutRounding="False" Width="49"/>
+                    </Canvas>
                 </Canvas>
-                <Canvas x:Name="Pierna_Derecha" Height="249" Width="207" Canvas.Left="274" Canvas.Top="420" RenderTransformOrigin="0.6,0.3" PointerReleased="Pierna_Derecha_PointerReleased">
+                <Canvas x:Name="Pierna_Derecha" Height="249" Width="207" Canvas.Left="274" Canvas.Top="420" RenderTransformOrigin="0.6,0.3">
                     <Ellipse x:Name="Ellipse_Pie_Derecho" Height="103" Canvas.Left="78.567" Stroke="Black" Canvas.Top="128.567" Width="85" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="#FF9C8C66">
                         <Ellipse.RenderTransform>
                             <CompositeTransform Rotation="-7.442"/>
@@ -272,11 +277,12 @@
                             <CompositeTransform Rotation="-3.21"/>
                         </Path.RenderTransform>
                     </Path>
-                    <Canvas x:Name="Lineado_Pierna_Derecha" Height="249" Width="207"/>
-                    <Path x:Name="Pierna_DerechaLinea1" Data="M316,481.93333 L457.93333,472.6" Fill="#FFF4F4F5" Height="10" Canvas.Left="37.067" Stroke="Black" Stretch="Fill" Canvas.Top="58.167" UseLayoutRounding="False" Width="143"/>
-                    <Path x:Name="Pierna_DerechaLinea2" Data="M353.1,479.35 L356.1,543.6" Fill="#FFF4F4F5" Height="65" Canvas.Left="74.167" Stroke="Black" Stretch="Fill" Canvas.Top="64.917" UseLayoutRounding="False" Width="4"/>
-                    <Path x:Name="Pierna_DerechaLinea3" Data="M421.1,475.35 L425.43301,539.35" Fill="#FFF4F4F5" Height="65" Canvas.Left="142.167" Stroke="Black" Stretch="Fill" Canvas.Top="60.917" UseLayoutRounding="False" Width="5"/>
-                    <Path x:Name="Pierna_DerechaLinea4" Data="M319.93333,546.26667 L459.93333,536.93333" Fill="#FFF4F4F5" Height="10" Canvas.Left="41" Stroke="Black" Stretch="Fill" Canvas.Top="122.5" UseLayoutRounding="False" Width="141"/>
+                    <Canvas x:Name="Lineado_Pierna_Derecha" Height="249" Width="207">
+                        <Path x:Name="Pierna_DerechaLinea1" Data="M316,481.93333 L457.93333,472.6" Fill="#FFF4F4F5" Height="10" Canvas.Left="37.067" Stroke="Black" Stretch="Fill" Canvas.Top="58.167" UseLayoutRounding="False" Width="143"/>
+                        <Path x:Name="Pierna_DerechaLinea2" Data="M353.1,479.35 L356.1,543.6" Fill="#FFF4F4F5" Height="65" Canvas.Left="74.167" Stroke="Black" Stretch="Fill" Canvas.Top="64.917" UseLayoutRounding="False" Width="4"/>
+                        <Path x:Name="Pierna_DerechaLinea3" Data="M421.1,475.35 L425.43301,539.35" Fill="#FFF4F4F5" Height="65" Canvas.Left="142.167" Stroke="Black" Stretch="Fill" Canvas.Top="60.917" UseLayoutRounding="False" Width="5"/>
+                        <Path x:Name="Pierna_DerechaLinea4" Data="M319.93333,546.26667 L459.93333,536.93333" Fill="#FFF4F4F5" Height="10" Canvas.Left="41" Stroke="Black" Stretch="Fill" Canvas.Top="122.5" UseLayoutRounding="False" Width="141"/>
+                    </Canvas>
                 </Canvas>
                 <Canvas x:Name="Cabeza" Height="291" Width="272" Canvas.Left="142" Canvas.Top="51" RenderTransformOrigin="0.618,0.768">
                     <Canvas x:Name="Oreja_Derecha" Height="123" Width="99" Canvas.Left="173">
@@ -360,17 +366,10 @@
                                 <CompositeTransform Rotation="-149.45" SkewX="-20.426" SkewY="-9.689" ScaleX="0.986" ScaleY="1.083" TranslateX="8.038" TranslateY="4.013"/>
                             </Path.RenderTransform>
                         </Path>
-                        <Ellipse x:Name="Ellipse_Ojo_Derecho_Blanco" Height="44" Canvas.Left="27.514" Stroke="Black" Canvas.Top="8.785" Width="25" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="White" PointerReleased="enfadarPupila">
+                        <Ellipse x:Name="Ellipse_Ojo_Derecho_Blanco" Height="44" Canvas.Left="27.514" Stroke="Black" Canvas.Top="8.785" Width="25" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="White">
                             <Ellipse.RenderTransform>
                                 <CompositeTransform Rotation="22.445" SkewX="-9.418" TranslateX="-2.754" TranslateY="-1.137"/>
                             </Ellipse.RenderTransform>
-
-                            <Ellipse.Resources>
-                                <Storyboard x:Name="animarPupilaDerecha" x:Key="animarPupilaDerechaKey">
-                                    <ColorAnimation BeginTime="00:00:00" Duration="00:00:02" AutoReverse="True" From="White" To="Red" Storyboard.TargetName="Ellipse_Ojo_Derecho_Blanco" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)"/>
-                                </Storyboard>
-                            </Ellipse.Resources>
-
                         </Ellipse>
                     </Canvas>
                     <Canvas x:Name="Ojo_Izquierdo" Height="99" Width="69" Canvas.Top="109">
@@ -410,7 +409,5 @@
                 </Canvas>
             </Canvas>
         </Grid>
-        <Button Content="Haz cosas puto
-       " Margin="0,803,0,0" VerticalAlignment="Top" Height="50" Width="99" HorizontalAlignment="Center" Click="Button_Click"/>
     </Grid>
 </Page>
