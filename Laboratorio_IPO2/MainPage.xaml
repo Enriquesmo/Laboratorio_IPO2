@@ -7,6 +7,168 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <Storyboard x:Name="Ataque1_Arañazo">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Pokemon_Sandshrew" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="229"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.7000000" Value="-160"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Pokemon_Sandshrew" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-123"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.7000000" Value="19"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Brazo_Izquierdo" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="111.863"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.7000000" Value="-28.323"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Brazo_Derecho" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-122.067"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.7000000" Value="38.243"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimation Duration="00:00:01" Storyboard.TargetName="Cabeza" To="-9.237" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+            <DoubleAnimation Duration="00:00:01.7000000" Storyboard.TargetName="Cola" To="-20.304" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+            <DoubleAnimation Duration="00:00:01" Storyboard.TargetName="Pierna_Izquierda" To="-23.465" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+            <DoubleAnimation Duration="00:00:01" Storyboard.TargetName="Pierna_Derecha" To="-14.994" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+        </Storyboard>
+        <Storyboard x:Name="MovimientoEstandar"/>
+        <Storyboard x:Name="Ataque2_AtaqueArena">
+            <DoubleAnimation Duration="00:00:01" Storyboard.TargetName="Pierna_Derecha" To="52.857" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Cola" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-18.135"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="45.413"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Vida25_Arañazo3" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-25.203"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="47.195"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Vida25_Arañazo3" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-8"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="6"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Vida25_Arañazo3" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-15"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="40"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimation Duration="00:00:01" Storyboard.TargetName="Vida50_Tirita3" To="52.137" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+            <DoubleAnimation Duration="00:00:01" Storyboard.TargetName="Vida50_Tirita3" To="-10" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)"/>
+            <DoubleAnimation Duration="00:00:01" Storyboard.TargetName="Vida50_Tirita3" To="-12" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)"/>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Brazo_Izquierdo" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="73.226"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-23.027"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Vida50_Tirita2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-1"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="21"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Vida50_Tirita2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-20"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="10"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Vida50_Tirita2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="48.544"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-41.427"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Brazo_Derecho" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-158.051"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="25.474"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Ataque4_Terremoto">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Pokemon_Sandshrew" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="274"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="54"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.3000000" Value="-124"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Pokemon_Sandshrew" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-59"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-193"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.3000000" Value="-1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Pokemon_Sandshrew" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-9.843"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Pierna_Derecha" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="29.287"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-13.143"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Vida50_Tirita3" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="66.747"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="32.491"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Pierna_Izquierda" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-39.613"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="13.075"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Vida25_Arañazo4" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="10.79"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="46.62"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Vida25_Arañazo4" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="10"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-28"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Vida25_Arañazo4" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="10"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-26"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Brazo_Izquierdo" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="75.819"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="128.085"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.3000000" Value="15.278"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Vida50_Tirita2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="64.517"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.3000000" Value="-85.956"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Vida50_Tirita2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-8"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.3000000" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Vida50_Tirita2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-22"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.3000000" Value="-4"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Brazo_Derecho" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="24.471"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.3000000" Value="-105.367"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Ataque3_PicotazoVen">
+            <DoubleAnimation Duration="00:00:00.5000000" Storyboard.TargetName="Vida50_Tirita1" To="43.235" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+            <DoubleAnimation Duration="00:00:00.5000000" Storyboard.TargetName="Vida50_Tirita1" To="34" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)"/>
+            <DoubleAnimation Duration="00:00:00.5000000" Storyboard.TargetName="Vida25_Arañazo1" To="27.853" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+            <DoubleAnimation Duration="00:00:00.5000000" Storyboard.TargetName="Vida25_Arañazo1" To="-12" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)"/>
+            <DoubleAnimation Duration="00:00:00.5000000" Storyboard.TargetName="Vida25_Arañazo1" To="-2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)"/>
+            <DoubleAnimation Duration="00:00:00.5000000" Storyboard.TargetName="Vida50_Tirita1" To="10" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)"/>
+        </Storyboard>
+        <Storyboard x:Name="vida0">
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Pokemon_Sandshrew" To="-90.097" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Pokemon_Sandshrew" To="-14.25" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Pokemon_Sandshrew" To="47.25" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Cabeza" To="63.513" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Cabeza" To="-79.472" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Cabeza" To="-16.635" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Vida0" To="50.279" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Vida0" To="-106.449" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Vida0" To="-30.18" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Vida25_Arañazo1" To="47.238" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Vida25_Arañazo1" To="-68.957" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Vida25_Arañazo1" To="-25.617" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Vida50_Tirita1" To="29.914" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Vida50_Tirita1" To="51.051" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Vida50_Tirita1" To="56.849" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Cola" To="35.223" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Vida25_Arañazo3" To="39.65" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Vida25_Arañazo3" To="-4.553" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Vida25_Arañazo3" To="31.492" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Pierna_Derecha" To="60.478" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Vida50_Tirita3" To="80.774" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Vida50_Tirita3" To="-1.482" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Vida50_Tirita3" To="-10.503" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)"/>
+            <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Brazo_Derecho" To="29.173" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+        </Storyboard>
+    </Page.Resources>
 
     <Grid x:Name="Grid_Principal">
 
@@ -28,7 +190,7 @@
                 <RowDefinition Height="7*"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <ProgressBar x:Name="ProgressBar_Vida" Margin="10,10,10,11" VerticalAlignment="Stretch" Background="#4CF40000" Value="60" Grid.Column="1"/>
+            <ProgressBar x:Name="ProgressBar_Vida" Margin="10,10,10,11" VerticalAlignment="Stretch" Background="#4CF40000" Value="100" Grid.Column="1"/>
             <ProgressBar x:Name="ProgressBar_Energia" Margin="10,10,10,11" VerticalAlignment="Stretch" Foreground="#FFFCFF00" Background="#4CFCFF00" Value="80" Grid.Column="1" Grid.Row="1"/>
             <Image x:Name="Image_Vida" Source="/Assets/ImagenVida.png">
                 <Image.FocusVisualPrimaryBrush>
@@ -80,6 +242,9 @@
                     <ImageBrush/>
                 </Canvas.Background>
                 <Canvas x:Name="Cola" Height="201" Width="233" Canvas.Top="356" Canvas.Left="411" RenderTransformOrigin="0.203,0.67">
+                    <Canvas.RenderTransform>
+                        <CompositeTransform/>
+                    </Canvas.RenderTransform>
                     <Path x:Name="Path_Cola_Clara" Canvas.Left="-102.145" Stroke="Black" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M113.05824,0.5 L113.84593,1.230886 C135.11832,20.659815 161.55981,38.684967 191.82016,53.414551 C247.80179,80.66428 304.59772,90.669292 347.50656,84.090237 L348.51999,83.922787 L348.4227,83.999149 C319.86871,105.68713 256.31631,120.77812 182.5,120.77812 C81.984177,120.77812 0.5,92.795918 0.5,58.278118 C0.5,32.389771 46.33485,10.177694 111.65739,0.68967628 z" Height="121" RenderTransformOrigin="0.522892687366542,0.48053283667687" Stretch="Fill" Canvas.Top="29.786" Width="349" Fill="#FFE8C978">
                         <Path.RenderTransform>
                             <CompositeTransform Rotation="-37.411" SkewX="0" SkewY="-1.106" ScaleX="1" ScaleY="1" TranslateX="-2.141" TranslateY="-2.8"/>
@@ -100,6 +265,9 @@
                     </Canvas>
                 </Canvas>
                 <Canvas x:Name="Pierna_Izquierda" Height="194" Width="244" Canvas.Left="72" Canvas.Top="420" RenderTransformOrigin="0.681,0.178">
+                    <Canvas.RenderTransform>
+                        <CompositeTransform/>
+                    </Canvas.RenderTransform>
                     <Ellipse x:Name="Ellipse_Pie_Izquierdo" Height="124" Canvas.Left="90.538" Stroke="Black" Canvas.Top="66.751" Width="61" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="#FF9C8C66">
                         <Ellipse.RenderTransform>
                             <CompositeTransform Rotation="80.899"/>
@@ -186,6 +354,9 @@
                     </Canvas>
                 </Canvas>
                 <Canvas x:Name="Cabeza" Height="291" Width="272" Canvas.Left="142" Canvas.Top="51" RenderTransformOrigin="0.618,0.768">
+                    <Canvas.RenderTransform>
+                        <CompositeTransform/>
+                    </Canvas.RenderTransform>
                     <Canvas x:Name="Oreja_Derecha" Height="123" Width="99" Canvas.Left="173">
                         <Path x:Name="Path_Oreja_Derecha_Fondo" Canvas.Left="-8.124" Stroke="Black" Width="86" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M79.933381,0.50213623 L80.979897,0.51875305 L81.309037,2.2486305 C83.994866,16.806587 85.5,33.130081 85.5,50.371719 C85.5,54.203194 85.425675,57.989326 85.280579,61.720825 L85.055787,66.341057 L84.310715,66.952667 C70.09385,78.473419 51.773152,89.770157 30.856997,99.309692 C23.884945,102.48953 16.954533,105.32362 10.145261,107.80698 L6.8979835,108.9548 L6.6528682,107.92926 C2.7484142,91.146393 0.50000045,71.444839 0.5,50.371719 C0.50000045,40.79303 0.96454874,31.497719 1.8380134,22.631088 L2.2269041,19.054298 L6.0020079,17.463562 C33.644158,6.1321945 59.984063,0.37268448 79.933381,0.50213623 z" Height="109" RenderTransformOrigin="0.50000000259904,0.460205653520102" Stretch="Fill" Canvas.Top="28.128" Fill="#FFE7C979">
                             <Path.RenderTransform>
@@ -354,6 +525,9 @@
                     </Canvas>
                 </Canvas>
                 <Canvas x:Name="Pierna_Derecha" Height="249" Width="207" Canvas.Left="274" Canvas.Top="420" RenderTransformOrigin="0.6,0.3">
+                    <Canvas.RenderTransform>
+                        <CompositeTransform/>
+                    </Canvas.RenderTransform>
                     <Ellipse x:Name="Ellipse_Pie_Derecho" Height="103" Canvas.Left="78.567" Stroke="Black" Canvas.Top="128.567" Width="85" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Fill="#FF9C8C66">
                         <Ellipse.RenderTransform>
                             <CompositeTransform Rotation="-7.442"/>
@@ -387,6 +561,92 @@
                         <Path x:Name="Pierna_DerechaLinea4" Data="M319.93333,546.26667 L459.93333,536.93333" Fill="#FFF4F4F5" Height="10" Canvas.Left="41" Stroke="Black" Stretch="Fill" Canvas.Top="122.5" UseLayoutRounding="False" Width="141"/>
                     </Canvas>
                 </Canvas>
+                <Canvas x:Name="Objetos_EstadosDeVida" Height="679" Width="632">
+                    <Canvas x:Name="Vida50" Height="679" Width="632">
+                        <Image x:Name="Vida50_Tirita1" Height="42" Canvas.Left="297" Canvas.Top="113" Width="43" RenderTransformOrigin="0.5,0.5" Source="/Assets/tirita2.png" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                            <Image.RenderTransform>
+                                <CompositeTransform Rotation="-11.743"/>
+                            </Image.RenderTransform>
+                        </Image>
+                        <Image x:Name="Vida50_Tirita2" Height="53" Width="51" Canvas.Left="157.575" Canvas.Top="290.479" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Source="/Assets/tirita1.png">
+                            <Image.RenderTransform>
+                                <CompositeTransform Rotation="-33.291"/>
+                            </Image.RenderTransform>
+                        </Image>
+                        <Image x:Name="Vida50_Tirita3" Height="73" Width="82" Canvas.Left="343" Canvas.Top="467" Source="/Assets/tirita2.png" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                            <Image.RenderTransform>
+                                <CompositeTransform Rotation="30.552"/>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Canvas>
+                    <Canvas x:Name="Vida25" Height="679" Width="632">
+                        <Image x:Name="Vida25_Arañazo1" Height="100" Width="100" Canvas.Left="251" Canvas.Top="244" Source="/Assets/arañazo1.png" RenderTransformOrigin="0.5,0.5">
+                            <Image.RenderTransform>
+                                <CompositeTransform/>
+                            </Image.RenderTransform>
+                        </Image>
+                        <Image x:Name="Vida25_Arañazo2" Height="100" Width="100" Source="/Assets/arañazo2.png" Canvas.Left="399.667" Canvas.Top="339.333" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                            <Image.RenderTransform>
+                                <CompositeTransform Rotation="231.939"/>
+                            </Image.RenderTransform>
+                        </Image>
+                        <Image x:Name="Vida25_Arañazo3" Height="100" Width="100" Source="/Assets/arañazo3.png" Canvas.Left="461.667" Canvas.Top="412" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                            <Image.RenderTransform>
+                                <CompositeTransform Rotation="0.571"/>
+                            </Image.RenderTransform>
+                        </Image>
+                        <Image x:Name="Vida25_Arañazo4" Height="100" Width="100" Canvas.Left="133" Canvas.Top="466.667" Source="/Assets/arañazo2.png" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                            <Image.RenderTransform>
+                                <CompositeTransform Rotation="10.79"/>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Canvas>
+                    <Canvas x:Name="Vida0" Height="679" Width="632" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
+                        <Canvas.RenderTransform>
+                            <CompositeTransform/>
+                        </Canvas.RenderTransform>
+                        <Image x:Name="OjoDerecho" Height="100" Width="100" Canvas.Left="305" Canvas.Top="164" Source="/Assets/espiral.png" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                            <Image.RenderTransform>
+                                <CompositeTransform Rotation="-162.922"/>
+                            </Image.RenderTransform>
+                        </Image>
+                        <Image x:Name="OjoIzquierdo" Height="91" Width="94" Canvas.Left="129" Canvas.Top="155" Source="/Assets/espiral.png"/>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <Canvas x:Name="ImagenesAtaques" d:IsHidden="True">
+                <Image x:Name="Ataque1_ImagenArañazo" Source="/Assets/arañazo_ataque.png" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" d:IsHidden="True" Height="292" Canvas.Left="588" Canvas.Top="311" Width="294">
+                    <Image.RenderTransform>
+                        <CompositeTransform Rotation="-92.72"/>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="Ataque2_Arena1" Height="339" Width="224" Canvas.Left="563.881" Canvas.Top="596.081" Source="/Assets/arena.png" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                    <Image.RenderTransform>
+                        <CompositeTransform Rotation="-117.329"/>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="Ataque2_Arena2" Height="311" Width="237" Canvas.Left="829.275" Canvas.Top="572.204" Source="/Assets/arena.png" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                    <Image.RenderTransform>
+                        <CompositeTransform Rotation="-260.452" ScaleX="-1"/>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="Ataque2_Arena3" Height="389" Width="414" Canvas.Left="226" Canvas.Top="400.5" Source="/Assets/arena.png" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                    <Image.RenderTransform>
+                        <CompositeTransform Rotation="-11.94"/>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="Ataque2_Arena4" Height="285" Width="223" Canvas.Left="903" Canvas.Top="391" Source="/Assets/arena.png" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="-1"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="Ataque3_FlechaVenenosa" Height="100" Width="100"/>
+                <Image x:Name="Ataque4_FisuraTerremoto" Height="220" Width="721" Canvas.Left="240" Canvas.Top="648"/>
             </Canvas>
         </Grid>
     </Grid>
