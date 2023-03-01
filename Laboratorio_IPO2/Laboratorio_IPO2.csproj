@@ -135,8 +135,12 @@
     <Content Include="Assets\arañazo3.png" />
     <Content Include="Assets\arañazo_ataque.png" />
     <Content Include="Assets\arena.png" />
+    <Content Include="Assets\BurbujasVeneno.png" />
     <Content Include="Assets\espiral.png" />
+    <Content Include="Assets\FlechaVeneno.png" />
     <Content Include="Assets\fondo-desierto.png" />
+    <Content Include="Assets\Grieta 1.png" />
+    <Content Include="Assets\Grieta 2.png" />
     <Content Include="Assets\Icono_Energía_Tierra.png" />
     <Content Include="Assets\ImagenEscudo.png" />
     <Content Include="Assets\ImagenVida.png" />
