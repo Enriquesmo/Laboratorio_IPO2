@@ -34,7 +34,9 @@
                 <EasingDoubleKeyFrame KeyTime="00:00:01.7000000" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
-        <Storyboard x:Name="MovimientoEstandar"/>
+        <Storyboard x:Name="MovimientoEstandar">
+            <DoubleAnimation Duration="00:00:00" Storyboard.TargetName="Pokemon_Sandshrew" To="1" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)"/>
+        </Storyboard>
         <Storyboard x:Name="Ataque2_AtaqueArena">
             <DoubleAnimation Duration="00:00:01" Storyboard.TargetName="Pierna_Derecha" To="52.857" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Cola" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
@@ -268,7 +270,20 @@
             <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Vida50_Tirita1" To="19.17" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)"/>
             <DoubleAnimation Duration="00:00:01.4000000" Storyboard.TargetName="Vida50_Tirita1" To="-60.832" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)"/>
         </Storyboard>
-        <Storyboard x:Name="NoEnergía"/>
+        <Storyboard x:Name="NoEnergía">
+            <DoubleAnimation Duration="00:00:01" Storyboard.TargetName="Brazo_Derecho" To="87.534" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Path_Brazo_Derecho_Garra2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:01.3000000" Value="190"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.6000000" Value="160"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.9000000" Value="190"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.2000000" Value="160"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:03" Value="177"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="TextBlock_No" Storyboard.TargetProperty="(UIElement.Opacity)">
+                <EasingDoubleKeyFrame KeyTime="00:00:02.2000000" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.6000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
     </Page.Resources>
 
     <Grid x:Name="Grid_Principal">
@@ -788,6 +803,7 @@
                             <CompositeTransform Rotation="-19.247" ScaleX="-1"/>
                         </Image.RenderTransform>
                     </Image>
+                    <TextBlock x:Name="TextBlock_No" TextWrapping="Wrap" Text="No Energía" HorizontalAlignment="Left" Canvas.Left="-30" Canvas.Top="161" VerticalAlignment="Center" FontSize="30"/>
                 </Canvas>
             </Canvas>
             <Viewbox x:Name="ViewBox_ParteInferior" Margin="94,0,0,-1" Grid.Row="3" Grid.ColumnSpan="2" Stretch="Fill">

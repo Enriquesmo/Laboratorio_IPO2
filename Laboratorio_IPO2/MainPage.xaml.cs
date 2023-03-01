@@ -80,12 +80,14 @@ namespace Laboratorio_IPO2
                 Storyboard sb = (Storyboard)this.Resources["Ataque1_Arañazo"];
                 sb.Begin();
                 Ataque1_ImagenArañazo.Visibility = Visibility.Visible;
-                movimientoEstandar();
+                opacityElementosExtras();
             }
             else
             {
                 Storyboard sb = (Storyboard)this.Resources["NoEnergía"];
                 sb.Begin();
+                opacityElementosExtras();
+                TextBlock_No.Visibility = Visibility.Visible;
             }
         }
         private void btn_SegundoAtaque_Click(object sender, RoutedEventArgs e) // Terminado
@@ -99,12 +101,14 @@ namespace Laboratorio_IPO2
                 Ataque2_Arena3.Visibility = Visibility.Visible;
                 Ataque2_Arena4.Visibility = Visibility.Visible;
                 sb.Begin();
-                movimientoEstandar();
+                opacityElementosExtras();
             }
             else
             {
                 Storyboard sb = (Storyboard)this.Resources["NoEnergía"];
                 sb.Begin();
+                opacityElementosExtras();
+                TextBlock_No.Visibility = Visibility.Visible;
             }
         }
         private void btn_TercerAtaque_Click(object sender, RoutedEventArgs e) // Terminado
@@ -120,12 +124,14 @@ namespace Laboratorio_IPO2
                 sbIzquierdo.Begin();
                 Storyboard sbDerecho = (Storyboard)this.Ellipse_Ojo_Derecho_Blanco.Resources["ojoDerechoMoradoKey"];
                 sbDerecho.Begin();
-                movimientoEstandar();
+                opacityElementosExtras();
             }
             else
             {
                 Storyboard sb = (Storyboard)this.Resources["NoEnergía"];
                 sb.Begin();
+                opacityElementosExtras();
+                TextBlock_No.Visibility = Visibility.Visible;
             }
         }
         private void btn_CuartoAtaque_Click(object sender, RoutedEventArgs e) // Terminado
@@ -140,12 +146,14 @@ namespace Laboratorio_IPO2
                 Ataque4_Grieta3.Visibility = Visibility.Visible;
                 Ataque4_Grieta4.Visibility = Visibility.Visible;
                 Ataque4_Grieta5.Visibility = Visibility.Visible;
-                movimientoEstandar();
+                opacityElementosExtras();
             }
             else
             {
                 Storyboard sb = (Storyboard)this.Resources["NoEnergía"];
                 sb.Begin();
+                opacityElementosExtras();
+                TextBlock_No.Visibility = Visibility.Visible;
             }
         }
         private void btn_Herir_Click(object sender, RoutedEventArgs e) // Terminado
@@ -262,6 +270,7 @@ namespace Laboratorio_IPO2
             Ataque4_Grieta3.Visibility = Visibility.Collapsed;
             Ataque4_Grieta4.Visibility = Visibility.Collapsed;
             Ataque4_Grieta5.Visibility = Visibility.Collapsed;
+            TextBlock_No.Visibility= Visibility.Collapsed;
         }
         private void opacityElementosExtras() // Terminado
         {
@@ -277,6 +286,7 @@ namespace Laboratorio_IPO2
             Ataque4_Grieta3.Opacity = 0;
             Ataque4_Grieta4.Opacity = 0;
             Ataque4_Grieta5.Opacity = 0;
+            TextBlock_No.Opacity = 0;
         }
         private void estadoBotones(Boolean estado) // Terminado
         {
