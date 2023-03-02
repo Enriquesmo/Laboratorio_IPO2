@@ -34,9 +34,6 @@
                 <EasingDoubleKeyFrame KeyTime="00:00:01.7000000" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
-        <Storyboard x:Name="MovimientoEstandar">
-            <DoubleAnimation Duration="00:00:00" Storyboard.TargetName="Pokemon_Sandshrew" To="1" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)"/>
-        </Storyboard>
         <Storyboard x:Name="Ataque2_AtaqueArena">
             <DoubleAnimation Duration="00:00:01" Storyboard.TargetName="Pierna_Derecha" To="52.857" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"/>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Cola" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">

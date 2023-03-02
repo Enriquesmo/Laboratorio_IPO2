@@ -42,13 +42,12 @@ namespace Laboratorio_IPO2
             this.InitializeComponent();
             dtTimeVida = new DispatcherTimer();
             dtTimeEnergia = new DispatcherTimer();
-            movimientoEstandar();
             ocultarElementosExtras();
         }
 
         /************************************************************************************************/
 
-        /*Botones de la propia ventana ListaDeRutas*/
+        /*Botones de la propia Página*/
 
         private void Image_Pocion_De_Vida_PointerReleased(object sender, PointerRoutedEventArgs e) // Terminado
         {
@@ -181,12 +180,6 @@ namespace Laboratorio_IPO2
 
         /*Metodos Auxiliares para los botones e imagenes*/
 
-        private void movimientoEstandar()
-        {
-            opacityElementosExtras();
-            Storyboard sb = (Storyboard)this.Resources["MovimientoEstandar"];
-            sb.Begin();
-        }
         private void increaseHealth(object sender, object e) // Terminado
         {
            this.ProgressBar_Vida.Value += 0.2;
@@ -245,7 +238,6 @@ namespace Laboratorio_IPO2
             Storyboard sb = (Storyboard)this.Resources["vida0"];
             sb.Begin();
             estadoBotones(false);
-            //ocultarElementosExtras();
         }
         private void ocultarElementosExtras() // Terminado
         {
