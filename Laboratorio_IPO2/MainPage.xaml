@@ -328,7 +328,7 @@
                     <ImageBrush/>
                 </Image.FocusVisualSecondaryBrush>
             </Image>
-            <Viewbox x:Name="ViewBox_Pokemon_Sandshrew" Grid.Column="1" Margin="339,20,337,30" Grid.Row="2">
+            <Viewbox x:Name="ViewBox_Pokemon_Sandshrew" Grid.Column="1" Margin="3,0,93,0" Grid.Row="2" Grid.ColumnSpan="2">
                 <Canvas x:Name="Pokemon_Sandshrew" HorizontalAlignment="Center" VerticalAlignment="Center" Width="632" Height="679" RenderTransformOrigin="0.5,0.5">
                     <Canvas.RenderTransform>
                         <CompositeTransform ScaleX="0.5" ScaleY="0.5"/>
