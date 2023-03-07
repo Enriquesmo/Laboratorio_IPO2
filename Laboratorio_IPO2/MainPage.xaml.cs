@@ -1,28 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Threading;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
-using Windows.UI.Xaml.Navigation;
-using static System.Net.Mime.MediaTypeNames;
-using Image = Windows.UI.Xaml.Controls.Image;
-
-// La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0xc0a
 
 namespace Laboratorio_IPO2
 {
     /// <summary>
     /// Página dedicada al primer trabajo del laboratorio de IPO2
+    /// Enrique Sánchez-Migallón Ochoa
     /// </summary>
     public sealed partial class MainPage : Page
     {
@@ -161,14 +147,21 @@ namespace Laboratorio_IPO2
             if (this.ProgressBar_Vida.Value <= 50 && this.ProgressBar_Vida.Value > 25)
             {
                 Vida50_Tirita1.Visibility = Visibility.Visible;
+                Vida50_Tirita1.Opacity = 100;
                 Vida50_Tirita2.Visibility = Visibility.Visible;
+                Vida50_Tirita2.Opacity = 100;
                 Vida50_Tirita3.Visibility = Visibility.Visible;
+                Vida50_Tirita3.Opacity = 100;
             } else if (this.ProgressBar_Vida.Value <= 25 && this.ProgressBar_Vida.Value > 0)
             {
                 Vida25_Arañazo1.Visibility = Visibility.Visible;
+                Vida25_Arañazo1.Opacity = 100;
                 Vida25_Arañazo2.Visibility = Visibility.Visible;
+                Vida25_Arañazo2.Opacity = 100;
                 Vida25_Arañazo3.Visibility = Visibility.Visible;
+                Vida25_Arañazo3.Opacity = 100;
                 Vida25_Arañazo4.Visibility = Visibility.Visible;
+                Vida25_Arañazo4.Opacity = 100;
             } else if (this.ProgressBar_Vida.Value <= 0)
             {
                 animacionVida0();
