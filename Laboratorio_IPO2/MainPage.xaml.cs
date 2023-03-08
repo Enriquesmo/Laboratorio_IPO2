@@ -69,10 +69,7 @@ namespace Laboratorio_IPO2
             }
             else
             {
-                Storyboard sb = (Storyboard)this.Resources["NoEnergía"];
-                sb.Begin();
-                opacityElementosExtras();
-                TextBlock_No.Visibility = Visibility.Visible;
+                animacionNoEnergia();
             }
         }
         private void btn_SegundoAtaque_Click(object sender, RoutedEventArgs e) // Terminado
@@ -90,10 +87,7 @@ namespace Laboratorio_IPO2
             }
             else
             {
-                Storyboard sb = (Storyboard)this.Resources["NoEnergía"];
-                sb.Begin();
-                opacityElementosExtras();
-                TextBlock_No.Visibility = Visibility.Visible;
+                animacionNoEnergia();
             }
         }
         private void btn_TercerAtaque_Click(object sender, RoutedEventArgs e) // Terminado
@@ -113,10 +107,7 @@ namespace Laboratorio_IPO2
             }
             else
             {
-                Storyboard sb = (Storyboard)this.Resources["NoEnergía"];
-                sb.Begin();
-                opacityElementosExtras();
-                TextBlock_No.Visibility = Visibility.Visible;
+                animacionNoEnergia();
             }
         }
         private void btn_CuartoAtaque_Click(object sender, RoutedEventArgs e) // Terminado
@@ -135,10 +126,7 @@ namespace Laboratorio_IPO2
             }
             else
             {
-                Storyboard sb = (Storyboard)this.Resources["NoEnergía"];
-                sb.Begin();
-                opacityElementosExtras();
-                TextBlock_No.Visibility = Visibility.Visible;
+                animacionNoEnergia();
             }
         }
         private void btn_Herir_Click(object sender, RoutedEventArgs e) // Terminado
@@ -255,7 +243,7 @@ namespace Laboratorio_IPO2
             Ataque4_Grieta3.Visibility = Visibility.Collapsed;
             Ataque4_Grieta4.Visibility = Visibility.Collapsed;
             Ataque4_Grieta5.Visibility = Visibility.Collapsed;
-            TextBlock_No.Visibility= Visibility.Collapsed;
+            NoEnergia_Bocadillo.Visibility= Visibility.Collapsed;
         }
         private void opacityElementosExtras() // Terminado
         {
@@ -271,7 +259,14 @@ namespace Laboratorio_IPO2
             Ataque4_Grieta3.Opacity = 0;
             Ataque4_Grieta4.Opacity = 0;
             Ataque4_Grieta5.Opacity = 0;
-            TextBlock_No.Opacity = 0;
+            NoEnergia_Bocadillo.Opacity = 0;
+        }
+        private void animacionNoEnergia()
+        {
+            Storyboard sb = (Storyboard)this.Resources["NoEnergía"];
+            sb.Begin();
+            opacityElementosExtras();
+            NoEnergia_Bocadillo.Visibility = Visibility.Visible;
         }
         private void estadoBotones(Boolean estado) // Terminado
         {
