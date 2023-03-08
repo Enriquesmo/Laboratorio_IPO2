@@ -33,6 +33,20 @@ namespace Laboratorio_IPO2
 
         /************************************************************************************************/
 
+        /*Metodos y Variables para el UserControl*/
+
+        public double Vida
+        {
+            get { return this.ProgressBar_Vida.Value; }
+            set { this.ProgressBar_Vida.Value = value; }
+        }
+        public void herirPokemon(int damage)
+        {
+            restarBarraVida(damage);
+        }
+
+        /************************************************************************************************/
+
         /*Botones de la propia Página*/
 
         private void Image_Pocion_De_Vida_PointerReleased(object sender, PointerRoutedEventArgs e) // Terminado
