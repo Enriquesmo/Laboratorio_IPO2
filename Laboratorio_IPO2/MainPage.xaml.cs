@@ -35,14 +35,162 @@ namespace Laboratorio_IPO2
 
         /*Metodos y Variables para el UserControl*/
 
+        private bool verVida = true;
+        private bool verEnergia = true;
+        private bool verFondo = true;
+        private bool verNombre = true;
+        public bool VerVida
+        {
+            get { return verVida; }
+            set
+            {
+                this.verVida = value;
+                if (!verVida) this.Grid_HUD.RowDefinitions[0].Height = new GridLength(0);
+                else this.Grid_HUD.RowDefinitions[0].Height = new GridLength(10,
+               GridUnitType.Star);
+            }
+        }
+        public bool VerEnergia
+        {
+            get { return verEnergia; }
+            set
+            {
+                this.verEnergia = value;
+                if (!verEnergia) this.Grid_HUD.RowDefinitions[1].Height = new GridLength(0);
+                else this.Grid_HUD.RowDefinitions[1].Height = new GridLength(10,
+               GridUnitType.Star);
+            }
+        }
+        public bool VerFondo
+        {
+            get { return verFondo; }
+            set
+            {
+                this.verFondo = value;
+                if (!verFondo) this.imagenFondo.Opacity = 0;
+                else this.imagenFondo.Opacity = 100;
+            }
+        }
+        public bool VerNombre
+        {
+            get { return verNombre; }
+            set
+            {
+                this.verNombre = value;
+                if (!verNombre) this.TextBlock_NombrePokemon.Opacity = 0;
+                else this.TextBlock_NombrePokemon.Opacity = 100;
+            }
+        }
         public double Vida
         {
             get { return this.ProgressBar_Vida.Value; }
             set { this.ProgressBar_Vida.Value = value; }
         }
-        public void herirPokemon(int damage)
+        public double Energia
+        {
+            get { return this.ProgressBar_Energia.Value; }
+            set { this.ProgressBar_Energia.Value = value; }
+        }
+        public void herirPokemon(int damage) // Terminado
         {
             restarBarraVida(damage);
+            if (this.ProgressBar_Vida.Value <= 50 && this.ProgressBar_Vida.Value > 25)
+            {
+                Vida50_Tirita1.Visibility = Visibility.Visible;
+                Vida50_Tirita1.Opacity = 100;
+                Vida50_Tirita2.Visibility = Visibility.Visible;
+                Vida50_Tirita2.Opacity = 100;
+                Vida50_Tirita3.Visibility = Visibility.Visible;
+                Vida50_Tirita3.Opacity = 100;
+            }
+            else if (this.ProgressBar_Vida.Value <= 25 && this.ProgressBar_Vida.Value > 0)
+            {
+                Vida25_Arañazo1.Visibility = Visibility.Visible;
+                Vida25_Arañazo1.Opacity = 100;
+                Vida25_Arañazo2.Visibility = Visibility.Visible;
+                Vida25_Arañazo2.Opacity = 100;
+                Vida25_Arañazo3.Visibility = Visibility.Visible;
+                Vida25_Arañazo3.Opacity = 100;
+                Vida25_Arañazo4.Visibility = Visibility.Visible;
+                Vida25_Arañazo4.Opacity = 100;
+            }
+            else if (this.ProgressBar_Vida.Value <= 0)
+            {
+                animacionVida0();
+                opacityElementosExtras();
+            }
+        }
+        public void ataque1_Aranazo() // Terminado
+        {
+            Boolean sePuede = restarBarraEnergia(20);
+            if (sePuede == true)
+            {
+                Storyboard sb = (Storyboard)this.Resources["Ataque1_Arañazo"];
+                sb.Begin();
+                Ataque1_ImagenArañazo.Visibility = Visibility.Visible;
+                opacityElementosExtras();
+            }
+            else
+            {
+                animacionNoEnergia();
+            }
+        }
+        public void ataque2_AtaqueArena() // Terminado
+        {
+            Boolean sePuede = restarBarraEnergia(10);
+            if (sePuede == true)
+            {
+                Storyboard sb = (Storyboard)this.Resources["Ataque2_AtaqueArena"];
+                Ataque2_Arena1.Visibility = Visibility.Visible;
+                Ataque2_Arena2.Visibility = Visibility.Visible;
+                Ataque2_Arena3.Visibility = Visibility.Visible;
+                Ataque2_Arena4.Visibility = Visibility.Visible;
+                sb.Begin();
+                opacityElementosExtras();
+            }
+            else
+            {
+                animacionNoEnergia();
+            }
+        }
+        public void ataque3_PicotazoVenenoso() // Terminado
+        {
+            Boolean sePuede = restarBarraEnergia(25);
+            if (sePuede == true)
+            {
+                Ataque3_FlechaVenenosa.Visibility = Visibility.Visible;
+                Ataque3_BurbujasVeneno.Visibility = Visibility.Visible;
+                Storyboard sb = (Storyboard)this.Resources["Ataque3_PicotazoVen"];
+                sb.Begin();
+                Storyboard sbIzquierdo = (Storyboard)this.Ellipse_Ojo_Izquierdo_Blanco.Resources["ojoIzquierdoMoradoKey"];
+                sbIzquierdo.Begin();
+                Storyboard sbDerecho = (Storyboard)this.Ellipse_Ojo_Derecho_Blanco.Resources["ojoDerechoMoradoKey"];
+                sbDerecho.Begin();
+                opacityElementosExtras();
+            }
+            else
+            {
+                animacionNoEnergia();
+            }
+        }
+        public void ataque4_Terremoto() // Terminado
+        {
+            Boolean sePuede = restarBarraEnergia(40);
+            if (sePuede == true)
+            {
+                Storyboard sb = (Storyboard)this.Resources["Ataque4_Terremoto"];
+                sb.Begin();
+                Ataque4_Grieta1.Visibility = Visibility.Visible;
+                Ataque4_Grieta2.Visibility = Visibility.Visible;
+                Ataque4_Grieta3.Visibility = Visibility.Visible;
+                Ataque4_Grieta4.Visibility = Visibility.Visible;
+                Ataque4_Grieta5.Visibility = Visibility.Visible;
+                opacityElementosExtras();
+            }
+            else
+            {
+                animacionNoEnergia();
+            }
         }
 
         /************************************************************************************************/
